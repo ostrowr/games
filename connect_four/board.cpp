@@ -1,17 +1,6 @@
-#include <iostream>
-#include <cassert>
-#include <set>
-#include <algorithm>
-
-
-#define NUM_ROWS 6 // must be >= 4
-#define NUM_COLS 7 // must be >= 4
+#include "board.hpp"
 
 using namespace std;
-
-typedef uint64_t board_t;
-
-void print_board(board_t white, board_t black);
 
 /* check to see if a board (representing a single player's moves)
  * has 4 in a row.
@@ -27,7 +16,6 @@ bool board_wins(board_t board) {
 		if (!(board & ((board_t) 1 << test))) continue;
 		int row = NUM_ROWS - (test / NUM_COLS) - 1;
 		int col = NUM_COLS - (test % NUM_COLS) - 1;
-		bool winner = false;
 		if (row >= 3 && col < NUM_COLS - 3){
 			if (((increasing_diag << test) & board) == (increasing_diag << test)){
 				return true;

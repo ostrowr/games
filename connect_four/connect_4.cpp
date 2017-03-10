@@ -47,9 +47,25 @@ using namespace std;
 // }
 
 
+void print_usage() {
+	cout << "Usage:" << endl;
+	cout << "\t./solve white black" << endl << endl;
+	cout << "\t<white> and <black> are integers representing" << endl;
+	cout << "\tthe positions of tokens of their respective colors." << endl << endl;
+	cout << "\tFor example, the board" << endl; 
+	cout << "\t\t0000000\n\t\t0000000\n\t\t1100101\n\t\t0100100\n\t\t1101001\n\t\t0010010" << endl;
+	cout << "\tis represented by the integer 212415634" << endl;
+	cout << "\t(from binary 1100101010010011010010010010)." << endl; 
+	exit(1);
+}
+
 int main(int argc, char *argv[]) {
-	board_t white = 0;
-	board_t black = 0;
+	if (argc != 3) print_usage();
+	board_t white = stoll(argv[1]);
+	board_t black = stoll(argv[2]);
+	// cout << board << endl;
+	// board_t white = 0;
+	// board_t black = 0;
 	move(white, black, 1, 0);
 	move(white, black, 2, 0);
 	move(white, black, 3, 0);
