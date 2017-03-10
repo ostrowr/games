@@ -64,6 +64,34 @@ bool move(board_t &white, board_t &black, int column, bool black_move) {
 	return true;
 }
 
+board_t reflect_board(board_t board) {
+	// boards reflected across the center line are 
+	// functionally identical. Return the smaller of the two 
+	// possible reflections.
+	board_t reflected = 0;
+	board_t full_row = (1 << NUM_COLS) - 1;
+	int offset = 0;
+	while (full_row <= ((board_t) 1 << (NUM_COLS * NUM_ROWS))) {
+		// the column in every row was full
+		reflected |= reversed_row[(full_row & board) >> offset] << offset;
+		full_row <<= NUM_COLS;
+		offset += NUM_COLS;
+	}
+	print_board(board, 0);
+	print_board(reflected, 0);
+	return min(board, reflected);
+}
+
+void standardize_reflection(board_t &white, board_t &black) {
+	// of the two reflections, choose the smaller one.
+	board_t white_reflected = reflect_board(white);
+	board_t black_reflected = reflect_board(black);
+	if ((white | black) > (white_reflected | black_reflected)) {
+		white = white_reflected;
+		black = black_reflected;
+	}
+}
+
 void print_board(board_t white, board_t black) {
 	int mask_shift = NUM_ROWS * NUM_COLS - 1;
 	while (mask_shift >= 0) {

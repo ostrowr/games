@@ -63,12 +63,7 @@ int main(int argc, char *argv[]) {
 	if (argc != 3) print_usage();
 	board_t white = stoll(argv[1]);
 	board_t black = stoll(argv[2]);
-	// cout << board << endl;
-	// board_t white = 0;
-	// board_t black = 0;
-	move(white, black, 1, 0);
-	move(white, black, 2, 0);
-	move(white, black, 3, 0);
-	print_board(white, black);
+	standardize_reflection(white, black);
+	// print_board(white, black);
 	// cout << move_score(white, black, 0, 2) << endl;
 }
