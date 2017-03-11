@@ -27,11 +27,11 @@ class Board {
 public:
 	Board(board_t white = 0, board_t black = 0, bool white_moved_last = false);
 	// void print_board();
-	int board_wins() const;
 	bool move(size_t column);
 	void standardize_reflection();
 	void process_moves(std::vector<size_t> moves);
 	bool is_black_turn() const;
+	int wins() const;
 	friend std::ostream& operator<<(std::ostream& os, const Board& b);
 	bool operator<(const Board& other) const;
 	bool operator==(const Board& other) const;

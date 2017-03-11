@@ -9,39 +9,43 @@ Board::Board(board_t white, board_t black, bool white_moved_last) {
 	this->white_moved_last = white_moved_last;
 }
 
-int Board::board_wins() const {
-	board_t board = this->white_moved_last ? this->white : this->black;
-	board_t row_check = (1 << 4) - 1; // all on the same row
-	board_t col_check = 1 | (1 << NUM_COLS) | (1 << (2 * NUM_COLS)) | (1 << (3 * NUM_COLS)); // all on the same col
-	board_t decreasing_diag = 1 | (1 << (NUM_COLS + 1)) | (1 << (2 * (NUM_COLS + 1))) | (1 << (3 * (NUM_COLS + 1))); // on the same decreasing diagonal
-	board_t increasing_diag = 1 | (1 << (NUM_COLS - 1)) | (1 << (2 * (NUM_COLS - 1))) | (1 << (3 * (NUM_COLS - 1))); // on the same increasing diagonal
-	for (int test = 0; test < NUM_ROWS * NUM_COLS; test++) {
-		// if the current test square isn't filled, nothing
-		// anchored there can be 4 in a row
-		if (!(board & ((board_t) 1 << test))) continue;
-		int row = NUM_ROWS - (test / NUM_COLS) - 1;
-		int col = NUM_COLS - (test % NUM_COLS) - 1;
-		if (row >= 3 && col < NUM_COLS - 3){
-			if (((increasing_diag << test) & board) == (increasing_diag << test)){
-				return this->white_moved_last ? 1 : -1;
-			}
-		}
-		if (row >= 3 && col >= 3) {
-			if (((decreasing_diag << test) & board) == (decreasing_diag << test)) {
-				return this->white_moved_last ? 1 : -1;
-			}
-		}
-		if (col >= 3) {
-			if (((row_check << test) & board) == (row_check << test)) {
-				return this->white_moved_last ? 1 : -1;
-			}
-		}
-		if (row >= 3) {
-			if (((col_check << test) & board) == (col_check << test)) {
-				return this->white_moved_last ? 1 : -1;
-			}
-		}
+static inline board_t no_last_columns_mask() {
+	//return ~242412012423LL;
+	board_t mask = 0;
+	board_t row_mask = (1 << 3) - 1;
+	for (int i = 0; i < NUM_ROWS; i++){
+		mask |= row_mask << (i * NUM_COLS);
 	}
+	return ~mask;
+}
+
+
+int Board::wins() const {
+	board_t board = this->white_moved_last ? this->white : this->black;
+	int winner = this->white_moved_last ? 1 : -1;
+	// horizontal
+	board_t consec = board & (board << 1);
+	consec = consec & (consec << 2);
+	// to prevent wrap, this last surviving piece
+	// can't be in any of the first three columns
+	if (consec & no_last_columns_mask()) return winner;
+
+	// vertical
+	consec = board & (board << NUM_COLS);
+	if (consec & (consec << (2 * NUM_COLS))) return winner;
+	// the board_t should be zeroed out above 2**42, so 
+	// wrap shouldn't be an issue.
+
+	// diagonal with negative slope
+	consec = board & (board << (NUM_COLS + 1));
+	consec = consec & (consec << (2 * (NUM_COLS + 1)));
+	if (consec & no_last_columns_mask()) return winner;
+
+	// diagonal with positive slope
+	consec = board & (board >> (NUM_COLS - 1));
+	consec = consec & (consec >> (2 * (NUM_COLS - 1)));
+	if (consec & no_last_columns_mask()) return winner;
+
 	return 0;
 }
 
@@ -66,6 +70,7 @@ bool Board::move(size_t column) {
 		this->white = this->white | (col_mask & full_row);
 	}
 	this->white_moved_last = !(this->white_moved_last);
+	// assert(this->wins() == this->board_wins());
 	return true;
 }
 
@@ -96,7 +101,7 @@ board_t Board::reflect_board(board_t board) {
 void Board::process_moves(vector<size_t> moves) {
 	for (size_t column : moves) {
 		this->move(column);
-		if (this->board_wins()) {
+		if (this->wins()) {
 			return;
 		}
 	}
@@ -114,18 +119,6 @@ bool Board::operator<(const Board& other) const {
 		return true;
 	}
 	return false;
-	// right now, checking reflection is slower.
-	// Board this_copy = *this;
-	// this_copy.standardize_reflection();
-	// Board other_copy = other;
-	// other_copy.standardize_reflection();
-	// if (this_copy.white < other_copy.white) {
-	// 	return true;
-	// }
-	// if (this_copy.white == other_copy.white && this_copy.black < other_copy.black) {
-	// 	return true;
-	// }
-	// return false;
 }
 
 ostream& operator<<(ostream& os, const Board& b) {
@@ -141,7 +134,7 @@ ostream& operator<<(ostream& os, const Board& b) {
 		mask_shift--;
 	}
 	os << "==============" << endl;
-	if (b.board_wins()) {
+	if (b.wins()) {
 		if (b.white_moved_last) {
 			os << "White wins." << endl;
 		}

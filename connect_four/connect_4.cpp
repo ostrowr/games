@@ -7,13 +7,15 @@ using namespace std;
 map<Board, int> solved_boards;
 
 
-int move_score(Board b, size_t proposed_move) {
+int move_score(Board b, size_t proposed_move, int alpha = -1, int beta = 1) {
+	// TODO could only insert/retrieve properly reflected board
+	// (but may be slower)
 	if (solved_boards.count(b)) return solved_boards[b];
 	bool legal_move = b.move(proposed_move);
 	if (!legal_move) {
 		return ILLEGAL_MOVE;
 	}
-	int winner = b.board_wins();
+	int winner = b.wins();
 
 	if (winner) {
 		solved_boards[b] = winner;
