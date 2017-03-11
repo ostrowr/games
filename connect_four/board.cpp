@@ -108,6 +108,13 @@ bool Board::is_black_turn() const {
 }
 
 bool Board::operator<(const Board& other) const {
+	if (this->white < other.white){
+		return true;
+	}
+	if (this->white == other.white && this->black < other.black) {
+		return true;
+	}
+	return false;
 	Board this_copy = *this;
 	this_copy.standardize_reflection();
 	Board other_copy = other;
@@ -124,6 +131,7 @@ bool Board::operator<(const Board& other) const {
 }
 
 bool Board::operator==(const Board& other) const {
+	return this->white == other.white && this->black == other.black;
 	Board this_copy = *this;
 	this_copy.standardize_reflection();
 	Board other_copy = other;
@@ -137,10 +145,14 @@ ostream& operator<<(ostream& os, const Board& b) {
 	while (mask_shift >= 0) {
 		int wh = !!(b.white & ((board_t) 1 << mask_shift));
 		int bl = !!(b.black & ((board_t) 1 << mask_shift));
-		os << wh + 2 * bl;
+		if (wh) os << 'W';
+		else if (bl) os << 'B';
+		else os << ' ';
+		os << '|';
 		if (!(mask_shift % NUM_COLS)) os << endl;
 		mask_shift--;
 	}
+	os << "==============" << endl;
 	if (b.board_wins()) {
 		if (b.white_moved_last) {
 			os << "White wins." << endl;

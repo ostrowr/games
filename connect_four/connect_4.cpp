@@ -1,6 +1,7 @@
 #include "board.hpp"
 #include <map>
 
+#define ILLEGAL_MOVE -2
 using namespace std;
 
 map<Board, int> solved_boards;
@@ -10,9 +11,7 @@ int move_score(Board b, size_t proposed_move) {
 	if (solved_boards.count(b)) return solved_boards[b];
 	bool legal_move = b.move(proposed_move);
 	if (!legal_move) {
-		return -2;
-		// solved_boards[make_pair(b, b.is_black_turn())] = 0;
-
+		return ILLEGAL_MOVE;
 	}
 	int winner = b.board_wins();
 	if (winner) {
@@ -24,7 +23,7 @@ int move_score(Board b, size_t proposed_move) {
 	for (size_t move = 0; move < NUM_COLS; move++) {
 		Board bb = b;
 		 int score = move_score(bb, move);
-		 if (score == -2) continue; // illegal move
+		 if (score == ILLEGAL_MOVE) continue; // illegal move
 		 if (score == -1 && b.is_black_turn()) {
 		 	solved_boards[b] = -1;
 		 	return -1;
