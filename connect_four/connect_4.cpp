@@ -14,6 +14,7 @@ int move_score(Board b, size_t proposed_move) {
 		return ILLEGAL_MOVE;
 	}
 	int winner = b.board_wins();
+
 	if (winner) {
 		solved_boards[b] = winner;
 		return winner;
@@ -21,8 +22,7 @@ int move_score(Board b, size_t proposed_move) {
 
 	set<size_t> moves;
 	for (size_t move = 0; move < NUM_COLS; move++) {
-		Board bb = b;
-		 int score = move_score(bb, move);
+		 int score = move_score(b, move);
 		 if (score == ILLEGAL_MOVE) continue; // illegal move
 		 if (score == -1 && b.is_black_turn()) {
 		 	solved_boards[b] = -1;

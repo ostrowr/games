@@ -86,7 +86,6 @@ board_t Board::reflect_board(board_t board) {
 	board_t full_row = (1 << NUM_COLS) - 1;
 	int offset = 0;
 	while (full_row <= ((board_t) 1 << (NUM_COLS * NUM_ROWS))) {
-		// the column in every row was full
 		reflected |= this->reversed_row[(full_row & board) >> offset] << offset;
 		full_row <<= NUM_COLS;
 		offset += NUM_COLS;
@@ -115,30 +114,19 @@ bool Board::operator<(const Board& other) const {
 		return true;
 	}
 	return false;
-	Board this_copy = *this;
-	this_copy.standardize_reflection();
-	Board other_copy = other;
-	other_copy.standardize_reflection();
-	board_t this_filled = this_copy.white | this_copy.black;
-	board_t other_filled = other_copy.white | other_copy.black;
-	if (this_filled < other_filled) {
-		return true;
-	}
-	if (this_filled == other_filled && this_copy.white < other_copy.white) {
-		return true;
-	}
-	return false;
+	// right now, checking reflection is slower.
+	// Board this_copy = *this;
+	// this_copy.standardize_reflection();
+	// Board other_copy = other;
+	// other_copy.standardize_reflection();
+	// if (this_copy.white < other_copy.white) {
+	// 	return true;
+	// }
+	// if (this_copy.white == other_copy.white && this_copy.black < other_copy.black) {
+	// 	return true;
+	// }
+	// return false;
 }
-
-bool Board::operator==(const Board& other) const {
-	return this->white == other.white && this->black == other.black;
-	Board this_copy = *this;
-	this_copy.standardize_reflection();
-	Board other_copy = other;
-	other_copy.standardize_reflection();
-	return (this_copy.white == other_copy.white && this_copy.black == other_copy.black);
-}
-
 
 ostream& operator<<(ostream& os, const Board& b) {
 	int mask_shift = NUM_ROWS * NUM_COLS - 1;
