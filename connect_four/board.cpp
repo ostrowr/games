@@ -20,33 +20,33 @@ static inline board_t no_last_columns_mask() {
 }
 
 
-int Board::wins() const {
+bool Board::wins() const {
 	board_t board = this->white_moved_last ? this->white : this->black;
-	int winner = this->white_moved_last ? 1 : -1;
+	// int winner = this->white_moved_last ? 1 : -1;
 	// horizontal
 	board_t consec = board & (board << 1);
 	consec = consec & (consec << 2);
 	// to prevent wrap, this last surviving piece
 	// can't be in any of the first three columns
-	if (consec & no_last_columns_mask()) return winner;
+	if (consec & no_last_columns_mask()) return true;
 
 	// vertical
 	consec = board & (board << NUM_COLS);
-	if (consec & (consec << (2 * NUM_COLS))) return winner;
+	if (consec & (consec << (2 * NUM_COLS))) return true;
 	// the board_t should be zeroed out above 2**42, so 
 	// wrap shouldn't be an issue.
 
 	// diagonal with negative slope
 	consec = board & (board << (NUM_COLS + 1));
 	consec = consec & (consec << (2 * (NUM_COLS + 1)));
-	if (consec & no_last_columns_mask()) return winner;
+	if (consec & no_last_columns_mask()) return true;
 
 	// diagonal with positive slope
 	consec = board & (board >> (NUM_COLS - 1));
 	consec = consec & (consec >> (2 * (NUM_COLS - 1)));
-	if (consec & no_last_columns_mask()) return winner;
+	if (consec & no_last_columns_mask()) return true;
 
-	return 0;
+	return false;
 }
 
 bool Board::move(size_t column) {

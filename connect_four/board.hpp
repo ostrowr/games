@@ -31,7 +31,7 @@ public:
 	void standardize_reflection();
 	void process_moves(std::vector<size_t> moves);
 	bool is_black_turn() const;
-	int wins() const;
+	bool wins() const;
 	friend std::ostream& operator<<(std::ostream& os, const Board& b);
 	bool operator<(const Board& other) const;
 	bool operator==(const Board& other) const;
