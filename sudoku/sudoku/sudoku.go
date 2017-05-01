@@ -2,7 +2,6 @@ package sudoku
 
 import "strconv"
 import "strings"
-// import "fmt"
 
 type cell uint
 type board [][]cell
