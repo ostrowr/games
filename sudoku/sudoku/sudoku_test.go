@@ -22,7 +22,7 @@ func BenchmarkBoard(b *testing.B) {
 
 func BenchmarkSolve(b *testing.B) {
     board := Board()
-    for i := 1; i <= b.N; i++ {
+    for i := 1; i < b.N; i++ {
         board.Load(boards[len(boards) % i])
         board.Solve()
     }
@@ -42,3 +42,4 @@ func TestSolve(t *testing.T) {
         }
     }
 }
+
