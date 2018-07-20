@@ -5,11 +5,21 @@ from queue import PriorityQueue
 import numpy as np
 
 # DICT = "/usr/share/dict/web2"
-DICT = "/usr/local/share/dict/9C.txt"  # 9th collegiate from http://wiki.puzzlers.org/pub/wordlists/9C.txt
-DROP_MARKER = ";"
-TOP_MARKER = "-"
+
+# public domain enable dict from http://wiki.puzzlers.org/pub/wordlists/enable1.txt
+DICT = "/usr/local/share/dict/enable1.txt"
+DROP_MARKER = "-"
 BLOCK_MARKER = "0"
 SPECIAL_LETTERS = "jqxz"
+
+# don't know the real letter values; use this as a heuristic
+SCRABBLE_LETTER_VALUES = {
+    'a': 1, 'b': 3, 'c': 3, 'd': 2, 'e': 1, 'f': 4,
+    'g': 2, 'h': 4, 'i': 1, 'j': 8, 'k': 5, 'l': 1,
+    'm': 3, 'n': 1, 'o': 1, 'p': 3, 'q': 10, 'r': 1,
+    's': 1, 't': 1, 'u': 1, 'v': 4, 'w': 4, 'x': 8,
+    'y': 4, 'z': 10
+}
 
 
 class Spelltower():
@@ -18,7 +28,8 @@ class Spelltower():
         legal_characters = string.ascii_letters + BLOCK_MARKER
         self.n_rows = 12
         self.n_cols = 9
-        self._empty_col = np.full(self.n_rows, TOP_MARKER, dtype=np.string_)
+        self._empty_col = np.full(self.n_rows, DROP_MARKER, dtype=np.string_)
+        self._empty_row = np.full(self.n_cols, DROP_MARKER, dtype=np.string_)
 
         # silently ignore illegal characters
         letters = [x for x in letters.lower() if x in legal_characters]
@@ -36,13 +47,24 @@ class Spelltower():
                 self.prefixes.add(word[:end_pos])
 
     def print_game(self, path):
-        print("START")
-        print(self.game)
+        score = sum(self._score(p) for p in path)
+        print("\n\nSTART (score={})".format(score))
         game_state = copy(self.game)
         for word in path:
-            game_state, _ = self._play_word(game_state, word)
-            print(word)
+            new_game_state, _ = self._play_word(game_state, word)
+            print(word[0])
+            for pos in word[1]:
+                game_state[pos] = game_state[pos].upper()
             print(game_state)
+            game_state = copy(new_game_state)
+        print("END\n\n")
+
+    def _score(self, word):
+        # TODO figure out how actual scoring system works
+        word_string, word_path = word
+        score_heuristic = sum([SCRABBLE_LETTER_VALUES[c] for c in word_string])
+        score_heuristic *= len(word_string)
+        return score_heuristic
 
     def solve(self):
         paths_in_progress = PriorityQueue()
@@ -58,11 +80,13 @@ class Spelltower():
                 if curr_score < best_score:
                     best_score = curr_score
                     best_path = path
-                    print(curr_score)
                     self.print_game(path)
-                # print("completed:", len(complete_paths))
                 continue
+            seen_on_path = set(p[0] for p in path)
             for word in words:
+                if word[0] in seen_on_path:
+                    continue  # can't play the same word twice
+
                 new_game_state, score = self._play_word(game_state, word)
                 new_path = copy(path)
                 new_path.append(copy(word))
@@ -117,17 +141,15 @@ class Spelltower():
             )[-self.n_rows:]
         return game_state
 
-    def _play_word(self, game_state, word):
+    def _play_word(self, game_state2, word):
         word_string, word_path = word
         bonus_length = len(word_string) >= 5
-        game_state = copy(game_state)
-        # TODO figure out how actual scoring system works
+        game_state = copy(game_state2)
 
-        score_heuristic = 0
-        for pos in word_path:
-            if game_state[pos] in SPECIAL_LETTERS:
-                game_state[pos, :] = DROP_MARKER
-                score_heuristic += 1
+        for i, pos in enumerate(word_path):
+
+            if word_string[i] in SPECIAL_LETTERS:
+                game_state[pos[0], :] = self._empty_row
 
             game_state[pos] = DROP_MARKER
 
@@ -141,10 +163,9 @@ class Spelltower():
                 # adjacent character
                 if bonus_length or (game_state[new_pos] == BLOCK_MARKER):
                     game_state[new_pos] = DROP_MARKER
-                    score_heuristic += 1
 
         game_state = self._gravitate(game_state)
-        return game_state, score_heuristic
+        return game_state, self._score(word)
 
     def __str__(self):
         """Pretty-print game state"""
@@ -157,5 +178,5 @@ if __name__ == "__main__":
     with open(infile, "r") as infd:
         data = infd.read()
     s = Spelltower(data)
-    words = s.solve()
-    print(len(words))
+    best_path = s.solve()
+    print(best_path)
