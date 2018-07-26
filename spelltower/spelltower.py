@@ -15,6 +15,8 @@ from copy import deepcopy as copy
 from queue import PriorityQueue
 import numpy as np
 
+from image_processing import screenshot_to_board
+
 # DICT = "/usr/share/dict/web2"
 
 # public domain enable dict from http://wiki.puzzlers.org/pub/wordlists/enable1.txt
@@ -232,8 +234,10 @@ if __name__ == "__main__":
     game = []
     infile = sys.argv[1]
     game = []
-    with open(infile, "r") as infd:
-        data = infd.read()
+
+    data = screenshot_to_board(infile)
+    # with open(infile, "r") as infd:
+    #     data = infd.read()
 
     s = Spelltower(data)
     # this will take a very long time to return,
