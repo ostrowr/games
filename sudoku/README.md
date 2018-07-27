@@ -6,7 +6,9 @@ A performant Sudoku solver written in Go.
 To build, run `go build` from the base directory. To test, `go test` from the sudoku/ directory. To benchmark on a list of minimal Sudokus from http://staffhome.ecm.uwa.edu.au/~00013890/sudoku17, run `go test -bench=.`
 
 Example:
+
     go build -o solve
+
     ./solve 800000000003600000070090200050007000000045700000100030001000068008500010090000400
 
     -------------
