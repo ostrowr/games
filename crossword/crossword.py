@@ -4,12 +4,11 @@ import numpy as np
 from collections import defaultdict
 import string
 import z3
+from math import log
 
-WORDS = ["CAT", "ADO", "NON", "CAN", "TON"]
-DICT = "mini_dict.txt"
+# DICT = "mini_dict.txt"
 DICT = "/usr/local/share/dict/enable1.txt"
-DICT = "/usr/share/dict/propernames"
-# WORDS = ["TUNA", "MUSIC", "CAN", "HI"]
+# DICT = "/usr/share/dict/propernames"
 
 class Crossword():
     def __init__(self, grid_path, dict_path):
@@ -18,8 +17,24 @@ class Crossword():
             self.grid = np.pad(self.grid, 1, 'constant', constant_values="-")
 
         self._make_lexicon(dict_path)
-        # self._get_constraints()
-        # self._constraints_to_z3()
+        self._get_constraints()
+        self._constraints_to_z3()
+
+    def solve(self):
+        print("Solving...")
+        if self.s.check() != z3.sat:
+            print("Unsatisfiable.")
+            return
+        print("Satisfiable.")
+        model = self.s.model()
+        for m in model:
+            word_length = int(str(m).split("(")[1][:-1])
+            index = 0
+            while True:
+                if z3.simplify(model[m] & (1 << index) != 0):
+                    print("{}:\t{}".format(m, self.words_by_length[word_length][index]))
+                    break
+                index += 1
 
     def _make_lexicon(self, dict_path):
         with open(dict_path, "r") as d:
@@ -42,22 +57,12 @@ class Crossword():
             for word_index, word in enumerate(words):
                 for char_index, char in enumerate(word):
                     bitarrays[l][char_index][char] |= (1 << word_index)
-        # print(bitarrays)
-        packed = 0
-        for c in string.ascii_uppercase:
-            packed |= bitarrays[4][3][c]
+
         for l in bitarrays:
             for char_index in bitarrays[l]:
                 for char in bitarrays[l][char_index]:
                     bitarrays[l][char_index][char] = z3.BitVecVal(bitarrays[l][char_index][char], len(self.words_by_length[l]))
         self.lexicon_bitarrays = bitarrays
-
-        # together = z3.BitVec("together", len(self.words_by_length[4]))
-        # for c in string.ascii_uppercase:
-        #     together |= self.lexicon_bitarrays[4][3][c]
-        #     # print(z3.simplify(z3.BVRedAnd(together)))
-        # print(z3.simplify(z3.BVRedAnd(self.lexicon_bitarrays[4][3]["A"]))) # should be 0
-        # print(z3.simplify(z3.BVRedAnd(together))) # should be 1
 
 
     def _get_constraints(self):
@@ -101,33 +106,34 @@ class Crossword():
         # self.down_letter_restrictions = {k: v for k, v in down_letter_restrictions if k in self.downs}
 
     def _constraints_to_z3(self):
-        word_constants = {z3.StringVal(word) for word in self.words}
-        across_variables = {k: (z3.String("{}-across".format(k)), v) for k, v in self.acrosses.items()}
-        down_variables = {k: (z3.String("{}-down".format(k)), v) for k, v in self.downs.items()}
-        print("here")
-        s = z3.Solver()
+        across_variables = {k: (z3.BitVec("{}-across({})".format(k, len(v)), len(self.words_by_length[len(v)])), v) for k, v in self.acrosses.items()}
+        down_variables = {k: (z3.BitVec("{}-down({})".format(k, len(v)), len(self.words_by_length[len(v)])), v) for k, v in self.downs.items()}
+        self.s = z3.Solver()
         for variable, info in list(across_variables.values()) + list(down_variables.values()):
-            # constrain every variable to be a valid word of the correct length
-            s.add(z3.Or([variable == word for word in self.words_by_length[len(info)]])) # [w for w in word_constants if z3.Length(w) == len(info)]]))
-            # s.add(z3.IsMember(variable, self.words_set))
-            # s.add(lambda x: True)
-            # s.add(z3.Contains(z3.StringVal(self.words), variable))#  in word_constants)
-            print(variable)
-            # of the correct length
-            # s.add(z3.Length(variable) == len(info))
 
-        print(self.acrosses)
+            # n & -n == n iff n has exactly one bit set. So this constraint just says
+            # each variable represents one exactly one index into the lexicographic ordering.
+            # of words of that length.
+            self.s.add(variable & -variable == variable)
+
         for restriction, indices in self.restrictions.items():
-            across = across_variables[restriction[0]][0]
-            down = down_variables[restriction[1]][0]
+            across, across_info = across_variables[restriction[0]]
+            down, down_info = down_variables[restriction[1]]
             across_ix, down_ix = indices
-            s.add(z3.SubString(across, across_ix, 1) == z3.SubString(down, down_ix, 1))
 
-        print("here")
-        # constrain every variable to be the correct length
-        print(s)
-        print(s.check())
-        print(s.model())
+            across_letters = []
+            down_letters = []
+            for letter in string.ascii_uppercase:
+                across_bitarray = self.lexicon_bitarrays[len(across_info)][across_ix][letter]
+                across_ok = z3.BVRedOr(across_bitarray & across) #) != 0  # TODO check if n & -n == n is faster since we know there is exactly one or 0 set
+                down_bitarray = self.lexicon_bitarrays[len(down_info)][down_ix][letter]
+                down_ok = z3.BVRedOr(down_bitarray & down) # != 0 # z3.BVRedOr(down_bitarray & down)
+                across_letters.append(across_ok)
+                down_letters.append(down_ok)
+
+            # for each restriction, the bitarray representing the letter
+            # chosen must be the same.
+            self.s.add(z3.Concat(across_letters) & z3.Concat(down_letters) != 0)
 
     def __str__(self):
         black_square = "▩"
@@ -147,5 +153,5 @@ class Crossword():
         return st
 
 if __name__ == "__main__":
-    c = Crossword("grid.txt", DICT)
-    print(c)
+    c = Crossword("grid3.txt", DICT)
+    c.solve()
