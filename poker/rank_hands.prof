@@ -1,0 +1,74 @@
+	Sun Feb 24 02:17 2019 Time and Allocation Profiling Report  (Final)
+
+	   rank_hands +RTS -p -RTS
+
+	total time  =       13.38 secs   (13382 ticks @ 1000 us, 1 processor)
+	total alloc = 22,279,064,656 bytes  (excludes profiling overheads)
+
+COST CENTRE                MODULE    SRC                      %time %alloc
+
+main.sorted                Main      rank_hands.hs:10:7-30     29.4   15.4
+scoreHand.kickerScore      Poker     Poker.hs:46:3-59          18.2   28.7
+scoreHand.numberCounts.\   Poker     Poker.hs:27:35-58         10.3    9.7
+scoreHand.pairs            Poker     Poker.hs:30:3-55           5.7    1.2
+scoreHand.numberCounts     Poker     Poker.hs:27:3-74           4.5   13.5
+scoreHand.isTrip           Poker     Poker.hs:31:3-39           4.5    0.0
+scoreHand.straightCounts.\ Poker     Poker.hs:29:35-58          4.0    3.8
+scoreHand.isQuad           Poker     Poker.hs:32:3-67           3.3    0.9
+scoreHand                  Poker     Poker.hs:(25,1)-(46,59)    3.0    4.8
+combinations               Poker     Poker.hs:(10,1)-(12,66)    2.9    7.0
+scoreHand.isMaybeStraight  Poker     Poker.hs:34:3-41           2.0    0.0
+setBits                    Masks     Masks.hs:8:1-32            1.9    0.9
+scoreHand.straightCounts   Poker     Poker.hs:29:3-79           1.8    5.3
+scoreHand.handType         Poker     Poker.hs:(37,3)-(45,38)    1.8    0.3
+scoreHand.suitCounts.\     Poker     Poker.hs:28:35-58          1.7    1.5
+scoreHand.isStraight       Poker     Poker.hs:35:3-77           1.2    1.2
+scoreHand.isFlush          Poker     Poker.hs:36:3-74           1.1    1.2
+scoreHand.suitCounts       Poker     Poker.hs:28:3-75           0.9    2.2
+main.withScores            Main      rank_hands.hs:9:7-53       0.6    1.2
+allHands                   Poker     Poker.hs:15:1-49           0.5    1.0
+
+
+                                                                                                      individual      inherited
+COST CENTRE                      MODULE                SRC                         no.     entries  %time %alloc   %time %alloc
+
+MAIN                             MAIN                  <built-in>                  120          0    0.0    0.0   100.0  100.0
+ CAF                             Masks                 <entire-module>             239          0    0.0    0.0     0.0    0.0
+  numMasks                       Masks                 Masks.hs:11:1-59            251          1    0.0    0.0     0.0    0.0
+   setBits                       Masks                 Masks.hs:8:1-32             255          0    0.0    0.0     0.0    0.0
+  setBits                        Masks                 Masks.hs:8:1-32             253          1    0.0    0.0     0.0    0.0
+  straightMasks                  Masks                 Masks.hs:(21,1)-(24,32)     263          1    0.0    0.0     0.0    0.0
+   setBits                       Masks                 Masks.hs:8:1-32             265          0    0.0    0.0     0.0    0.0
+  suitMasks                      Masks                 Masks.hs:14:1-60            268          1    0.0    0.0     0.0    0.0
+   setBits                       Masks                 Masks.hs:8:1-32             270          0    0.0    0.0     0.0    0.0
+ CAF                             Poker                 <entire-module>             238          0    0.0    0.0     5.3    9.0
+  allHands                       Poker                 Poker.hs:15:1-49            244          1    0.5    1.0     5.3    9.0
+   combinations                  Poker                 Poker.hs:(10,1)-(12,66)     245    2893164    2.9    7.0     2.9    7.0
+   setBits                       Masks                 Masks.hs:8:1-32             254          0    1.9    0.9     1.9    0.9
+  powersOfFour                   Poker                 Poker.hs:18:1-45            259          1    0.0    0.0     0.0    0.0
+ CAF                             Main                  <entire-module>             237          0    0.0    0.0    94.7   91.0
+  main                           Main                  rank_hands.hs:(8,1)-(11,23) 240          1    0.0    0.0    94.7   91.0
+   main.sorted                   Main                  rank_hands.hs:10:7-30       242          1   29.4   15.4    29.4   15.4
+   main.withScores               Main                  rank_hands.hs:9:7-53        243          1    0.6    1.2    65.3   75.6
+    scoreHand                    Poker                 Poker.hs:(25,1)-(46,59)     246    2598960    3.0    4.8    64.7   74.4
+     scoreHand.handType          Poker                 Poker.hs:(37,3)-(45,38)     247    2598960    1.8    0.3     1.8    0.3
+     scoreHand.isQuad            Poker                 Poker.hs:32:3-67            257    2598960    3.3    0.9     3.3    0.9
+     scoreHand.isStraight        Poker                 Poker.hs:35:3-77            248    2598960    1.2    1.2     1.2    1.2
+     scoreHand.isTrip            Poker                 Poker.hs:31:3-39            256    2598960    4.5    0.0     4.5    0.0
+     scoreHand.kickerScore       Poker                 Poker.hs:46:3-59            258    2598960   18.2   28.7    18.2   28.7
+     scoreHand.numberCounts      Poker                 Poker.hs:27:3-74            250    2598960    4.5   13.5    14.8   23.2
+      scoreHand.numberCounts.\   Poker                 Poker.hs:27:35-58           252   33786480   10.3    9.7    10.3    9.7
+     scoreHand.pairs             Poker                 Poker.hs:30:3-55            249    2598960    5.7    1.2     5.7    1.2
+     scoreHand.isFlush           Poker                 Poker.hs:36:3-74            260    2594592    1.1    1.2     1.1    1.2
+     scoreHand.isMaybeFlush      Poker                 Poker.hs:33:3-37            266    1317888    0.8    0.0     0.8    0.0
+     scoreHand.isMaybeStraight   Poker                 Poker.hs:34:3-41            261    1317888    2.0    0.0     2.0    0.0
+     scoreHand.straightCounts    Poker                 Poker.hs:29:3-79            262    1317888    1.8    5.3     5.8    9.1
+      scoreHand.straightCounts.\ Poker                 Poker.hs:29:35-58           264   13132800    4.0    3.8     4.0    3.8
+     scoreHand.suitCounts        Poker                 Poker.hs:28:3-75            267    1317888    0.9    2.2     2.5    3.7
+      scoreHand.suitCounts.\     Poker                 Poker.hs:28:35-58           269    5263830    1.7    1.5     1.7    1.5
+ CAF                             GHC.Conc.Signal       <entire-module>             215          0    0.0    0.0     0.0    0.0
+ CAF                             GHC.IO.Encoding       <entire-module>             197          0    0.0    0.0     0.0    0.0
+ CAF                             GHC.IO.Encoding.Iconv <entire-module>             195          0    0.0    0.0     0.0    0.0
+ CAF                             GHC.IO.Handle.FD      <entire-module>             186          0    0.0    0.0     0.0    0.0
+ CAF                             GHC.IO.Handle.Text    <entire-module>             184          0    0.0    0.0     0.0    0.0
+ main                            Main                  rank_hands.hs:(8,1)-(11,23) 241          0    0.0    0.0     0.0    0.0
