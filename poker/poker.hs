@@ -1,10 +1,11 @@
+{-# LANGUAGE ScopedTypeVariables #-}
 
 module Poker where
 
 import           Data.Int
 import           Masks
 import           Data.Bits
-import           Data.List                      ( tails )
+import           Data.List                      ( tails, foldl' )
 
 combinations :: Int -> [a] -> [[a]]
 combinations 0 _ = [[]]
@@ -17,12 +18,9 @@ allHands = map setBits $ combinations 5 [0 .. 51]
 powersOfFour :: [Int]
 powersOfFour = [ 4 ^ x | x <- [0 :: Int ..] ]
 
--- first value is the hand type (higher is better)
--- and second value is an int representing the kickers
--- such kickerScore(a) > kickerScore(b) iff a beats b given
--- the same hand type.
-scoreHand :: Int64 -> (Int, Int)
-scoreHand hand = (handType, kickerScore)
+-- scoreHand a > scoreHand b iff a beats b
+scoreHand :: Int64 -> Int64
+scoreHand hand = shiftL 26 handType .|. kickerScore
  where
   numberCounts    = map (\mask -> popCount (hand .&. mask)) Masks.numMasks
   suitCounts      = map (\mask -> popCount (hand .&. mask)) Masks.suitMasks
@@ -43,7 +41,10 @@ scoreHand hand = (handType, kickerScore)
            | pairs == 2            = 2
            | pairs == 1            = 1
            | otherwise             = 0
-  kickerScore = sum $ zipWith (*) powersOfFour numberCounts
+  -- the number of twos is encoded in the least significant 2
+  -- bits, the number of threes in the next 2 bits, and so on.
+  numberCountMasks = zipWith shiftL [0::Int64, 2..] numberCounts
+  kickerScore = foldl' (.|.) zeroBits numberCountMasks
 
 data CardValue = Two | Three | Four | Five | Six | Seven | Eight | Nine | Ten | Jack | Queen | King | Ace deriving (Eq, Ord, Show, Read, Bounded, Enum)
 data Suit = Spades | Clubs | Hearts | Diamonds deriving (Show, Read, Enum)
