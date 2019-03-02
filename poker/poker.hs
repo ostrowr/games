@@ -7,18 +7,22 @@ import           Masks
 import           Data.Bits
 import           Data.List                      ( tails, foldl', sortBy )
 import Data.Set (Set, fromDistinctAscList)
+import Data.IntSet (IntSet, fromList, size)
+import Data.Array.IArray
+
+type Hand = Int64
 
 combinations :: Int -> [a] -> [[a]]
 combinations 0 _ = [[]]
 combinations n xs =
   [ y : ys | y : xs' <- tails xs, ys <- combinations (n - 1) xs' ]
 
-allHands :: [Int64]
+allHands :: [Hand]
 allHands = map setBits $ combinations 5 [0 .. 51]
 
 -- Returns the hand as an integer, the best 5-card hand
 -- from that hand
-bestSubsetHand :: [Int] -> (Int64, Int64)
+bestSubsetHand :: [Int] -> (Hand, Hand)
 bestSubsetHand cards
   | length cards < 5 = error "Attempted to get hand subset from fewer than 5 cards"
   | otherwise = (bitwiseCards, bestHand) where
@@ -31,11 +35,11 @@ bestSubsetHand cards
 sevenCardCombos :: [[Int]]
 sevenCardCombos = combinations 7 [0..51]
 
-sevenToBestFive :: [(Int64, Int64)]
+sevenToBestFive :: [(Hand, Hand)]
 sevenToBestFive = map bestSubsetHand sevenCardCombos
 
 -- scoreHand a > scoreHand b iff a beats b
-scoreHand :: Int64 -> Int32
+scoreHand :: Hand -> Int32
 scoreHand hand = (shiftL handType 28) .|. (fromIntegral kickerScore)
  where
   numberCounts    = map (\mask -> popCount (hand .&. mask)) Masks.numMasks
@@ -67,11 +71,11 @@ data Suit = Spades | Clubs | Hearts | Diamonds deriving (Show, Read, Enum)
 
 data Card = Card {val :: CardValue, suit :: Suit} deriving (Show)
 
-fromPrettyHand :: [Card] -> Int64
+fromPrettyHand :: [Card] -> Hand
 fromPrettyHand = setBits . map fromCard
   where fromCard c = fromEnum (val c) * 4 + fromEnum (suit c)
 
-toPrettyHand :: Int64 -> [Card]
+toPrettyHand :: Hand -> [Card]
 toPrettyHand = map toCard . getSetBits
  where
   getSetBits h = map fst (filter snd (zip [0 ..] (map (testBit h) [0 .. 51])))
@@ -79,7 +83,7 @@ toPrettyHand = map toCard . getSetBits
     let (v, s) = divMod cardIndex 4 in Card (toEnum v) (toEnum s)
 
 
-sortedHands :: [(Int64, Int32)]
+sortedHands :: [(Hand, Int32)]
 sortedHands = let withScores = [(x, scoreHand x) | x <- allHands]
               in sortBy (\(_, a) (_, b) -> compare a b) withScores
 
@@ -94,6 +98,15 @@ findIndices n = map fst validIndices
 cardToIndices :: [Set Int]
 cardToIndices = [fromDistinctAscList (findIndices x) | x <- [0..51]]
 
+-- a list of length 52 where
+-- lookupTables!!i is the indices
+-- of sevenToBestFive that include card i.
+lookupTables :: Array Int IntSet
+lookupTables = array (0, 51) (zip [0..51] ([genLookups card | card <- [0..51]]))
+  where
+    -- can't refactor this at all because the combinations call will
+    -- get cached and we'll run out of memory...
+    genLookups card = fromList $ map snd $ filter (\x -> elem card (fst x)) (zip (combinations 7 [0..51]) [0..])
 
 test :: Bool
 test = all id (map doTest allHands)

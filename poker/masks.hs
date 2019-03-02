@@ -22,3 +22,7 @@ straightMasks =
   map setBits
     $  [ [x .. x + 19] | x <- [0, 4 .. 51 - 19] ]
     ++ [[48 .. 51] ++ [0 .. 15]] -- ten through ace
+
+
+ones :: [Int]
+ones = [0..18009459]
