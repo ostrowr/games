@@ -108,7 +108,4 @@ lookupTables = array (0, 51) (zip [0..51] ([genLookups card | card <- [0..51]]))
     -- get cached and we'll run out of memory...
     genLookups card = fromList $ map snd $ filter (\x -> elem card (fst x)) (zip (combinations 7 [0..51]) [0..])
 
-test :: Bool
-test = all id (map doTest allHands)
-  where doTest hand = fromPrettyHand (toPrettyHand hand) == hand
 

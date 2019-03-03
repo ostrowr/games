@@ -1,3 +1,2 @@
-*.hi
-*.o
-rank_hands
+.stack-work/
+poker.cabal
