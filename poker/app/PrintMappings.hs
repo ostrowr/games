@@ -1,5 +1,5 @@
 -- intended to be piped into a file; output will be
--- ~4 gigabytes
+-- several gigabytes
 
 {-# LANGUAGE ScopedTypeVariables #-}
 
@@ -14,4 +14,4 @@ main = do
   let sevenToBestFiveWithScores = zip scores sevenToBestFive
   -- score, seven-card hand, five-card hand
   let formatted = map (\x -> printf "%d\t%d\t%d" (fst x) (fst (snd x)) (snd (snd x))) sevenToBestFiveWithScores
-  mapM_ putStrLn $ take 100 formatted
+  mapM_ putStrLn formatted
