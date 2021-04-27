@@ -1,5 +1,8 @@
 use std::fmt;
 
+#[macro_use]
+extern crate lazy_static;
+
 const WHITE: usize = 0;
 const BLACK: usize = 1;
 
@@ -37,6 +40,10 @@ const COLS: [u64; 8] = [
     9259542123273814144,
 ];
 
+lazy_static! {
+    static ref RAYS: Vec<Vec<Vec<Position>>> = precompute_all_rays();
+}
+
 const WHITE_START: u64 = 68853694464;
 const BLACK_START: u64 = 34628173824;
 
@@ -47,9 +54,7 @@ fn main() {
     let mut game = Othello::new();
     println!("{}", game);
 
-    let rays = precompute_all_rays();
-
-    println!("{:#?}", rays);
+    println!("{:#?}", RAYS[32].len());
 
     let mv = Position::from_coordinates(0, 7);
 
@@ -106,38 +111,40 @@ impl Position {
 }
 
 fn precompute_all_rays() -> Vec<Vec<Vec<Position>>> {
+    let compute_ray_in_direction =
+        |from: Position, row_delta: i32, col_delta: i32| -> Vec<Position> {
+            let mut ray: Vec<Position> = Vec::new();
+            let mut curr = from;
+
+            loop {
+                let (row, col) = curr.to_coordinates();
+                let new_row = row as i32 + row_delta;
+                let new_col = col as i32 + col_delta;
+                if new_row < 0 || new_row > 7 || new_col < 0 || new_col > 7 {
+                    break ray;
+                }
+                curr = Position::from_coordinates(new_row as usize, new_col as usize);
+                ray.push(curr);
+            }
+        };
+
+    let precompute_rays = |from: Position| -> Vec<Vec<Position>> {
+        let mut rays: Vec<Vec<Position>> = Vec::new();
+        for row_delta in -1..2 {
+            for col_delta in -1..2 {
+                if row_delta != 0 || col_delta != 0 {
+                    rays.push(compute_ray_in_direction(from, row_delta, col_delta))
+                }
+            }
+        }
+        // only return rays that are length 2 or more. Otherwise,
+        // they can't possibly cause flips
+        rays.into_iter().filter(|r| r.len() > 1).collect()
+    };
+
     (0..64)
         .map(|i| precompute_rays(Position { val: 1 << i }))
         .collect()
-}
-
-fn precompute_rays(from: Position) -> Vec<Vec<Position>> {
-    println!("{}", from);
-    let mut rays: Vec<Vec<Position>> = Vec::new();
-    for row_delta in -1..2 {
-        for col_delta in -1..2 {
-            if row_delta != 0 || col_delta != 0 {
-                rays.push(compute_ray_in_direction(from, row_delta, col_delta))
-            }
-        }
-    }
-    rays
-}
-
-fn compute_ray_in_direction(from: Position, row_delta: i32, col_delta: i32) -> Vec<Position> {
-    let mut ray: Vec<Position> = Vec::new();
-    let mut curr = from;
-
-    loop {
-        let (row, col) = curr.to_coordinates();
-        let new_row = row as i32 + row_delta;
-        let new_col = col as i32 + col_delta;
-        if new_row < 0 || new_row > 7 || new_col < 0 || new_col > 7 {
-            break ray;
-        }
-        curr = Position::from_coordinates(new_row as usize, new_col as usize);
-        ray.push(curr);
-    }
 }
 
 struct Othello {
@@ -156,22 +163,34 @@ impl Othello {
     }
 
     fn get_rays(from: Position) -> &'static Vec<Vec<Position>> {
-        let mut cached_rays: Option<&Vec<Vec<Vec<Position>>>> = None;
-
-        let func = |pos: Position| -> &Vec<Vec<Position>> {
-            let rays = cached_rays.unwrap_or_else(|| {
-                let precomputed_rays = precompute_all_rays();
-                cached_rays = Some(&precomputed_rays);
-                &precomputed_rays
-            });
-
-            &rays[pos.val.trailing_zeros() as usize]
-        };
-
-        func(from)
+        &RAYS[from.val.trailing_zeros() as usize]
     }
 
     fn possible_moves(&self) -> u64 {
+        let available_squares = self.available_squares();
+        let opponent_squares = self.board[self.turn + 1 % 2];
+        let my_squares = self.board[self.turn];
+        for square in 0..64 {
+            let board_with_only_square: u64 = 1 << square;
+            if available_squares & board_with_only_square == 0 {
+                // this square is not available
+                continue;
+            }
+
+            let rays = &RAYS[square];
+            // for ray in rays {
+            //     let valid_ray: Vec<position> = Vec::new();
+            //     for position in ray {
+            //         if p.val &
+            //     }
+            // }
+            rays.into_iter().map(|r| {
+                let opponent_tiles: Vec<&Position> = r
+                    .into_iter()
+                    .take_while(|p| p.val & opponent_squares != 0)
+                    .collect();
+            });
+        }
         0
     }
 
