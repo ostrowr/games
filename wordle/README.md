@@ -1,0 +1,1 @@
+- words.txt is the list of words taken from https://www.powerlanguage.co.uk/wordle/ as of 1/7/2021. They're just hardcoded in. I tried not to look at the solutions!
