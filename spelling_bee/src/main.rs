@@ -16,6 +16,8 @@ Four-letter words are worth one point each.
 Longer words earn one point per letter. A six-letter word is worth six points.
 Each puzzle includes at least one “pangram,” which uses every letter at least once.
     A pangram is worth an additional seven points.
+
+Note: there are never any `s`es in the puzzle.
 ***********************************************************************************************************************/
 
 // Given a word, return its sorted set of unique characters and its score
@@ -52,7 +54,7 @@ fn normalize(word: &str) -> (String, usize) {
 
 const LEGAL_LETTERS: [char; 25] = [
     'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
-    /*,'s',*/ 't', 'u', 'v', 'w', 'x', 'y', 'z',
+    /*'s',*/ 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 /**
  * Preprocess a word list into a hashmap of letter -> sorted remaining letters -> total score of all words created
@@ -102,8 +104,14 @@ fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
 fn score_board(
     preprocessed: &HashMap<char, HashMap<String, usize>>,
     center_letter: &char,
-    other_letters: &str,
+    other_letters: &str, // must be sorted
 ) -> usize {
+    debug_assert!(other_letters.chars().all(|c| c.is_ascii_lowercase()));
+    debug_assert!(other_letters
+        .chars()
+        .collect::<Vec<char>>()
+        .windows(2)
+        .all(|pair| pair[0] < pair[1]));
     let word_scores = preprocessed.get(center_letter).unwrap();
     let total_score = other_letters
         .chars()
@@ -111,8 +119,10 @@ fn score_board(
         .chain(other_letters.chars().combinations(4))
         .chain(other_letters.chars().combinations(5))
         .chain(other_letters.chars().combinations(6))
-        .map(|letters| letters.iter().collect::<String>())
-        .map(|word| word_scores.get(&word).unwrap_or(&0))
+        .map(|letters| {
+            let word = letters.iter().collect::<String>();
+            word_scores.get(&word).unwrap_or(&0)
+        })
         .sum();
 
     total_score
