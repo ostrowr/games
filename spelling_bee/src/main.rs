@@ -1,5 +1,4 @@
 use itertools::Itertools;
-use std::cmp;
 use std::collections::HashMap;
 use std::fs::File;
 use std::io::{self, BufRead};
@@ -51,6 +50,10 @@ fn normalize(word: &str) -> (String, usize) {
     (sorted, word.len() + pangram_bonus)
 }
 
+const LEGAL_LETTERS: [char; 25] = [
+    'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
+    /*,'s',*/ 't', 'u', 'v', 'w', 'x', 'y', 'z',
+];
 /**
  * Preprocess a word list into a hashmap of letter -> sorted remaining letters -> total score of all words created
  * by all words that contain the letter and all of the remaining letters.
@@ -81,15 +84,15 @@ fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
             map
         });
 
-    let by_letter: HashMap<char, HashMap<String, usize>> = ('a'..='z')
-        .filter(|c| c != &'s')
+    let by_letter: HashMap<char, HashMap<String, usize>> = LEGAL_LETTERS
+        .iter()
         .map(|c| {
             let words = word_scores
                 .iter()
-                .filter(|(word, _)| word.contains(c))
-                .map(|(word, score)| (word.replace(c, ""), *score))
+                .filter(|(word, _)| word.contains(*c))
+                .map(|(word, score)| (word.replace(*c, ""), *score))
                 .collect();
-            (c, words)
+            (*c, words)
         })
         .collect();
 
@@ -119,25 +122,28 @@ fn main() {
     // hashmap between normalized words and the total score for all words that normalize to the same key
     let preprocessed = preprocess("/usr/share/dict/words");
 
-    let scores = ('a'..='z').filter(|c| c != &'s').flat_map(|center_letter| {
-        println!("Processing center letter: {}", center_letter);
-        ('a'..='z')
-            .filter(|c| c != &'s')
+    let scores = LEGAL_LETTERS.iter().flat_map(|center_letter| {
+        eprintln!("Processing center letter: {}", center_letter);
+        LEGAL_LETTERS
+            .iter()
             .filter(|c| c != &center_letter)
             .combinations(6)
-            .map(|letters| {
-                let letters: String = letters.iter().collect();
-                let score = score_board(&preprocessed, &center_letter, &letters);
-                (center_letter, letters, score)
+            .filter_map(|letters| {
+                let letters: String = letters.iter().copied().collect();
+                let score = score_board(&preprocessed, center_letter, &letters);
+                if score == 0 {
+                    return None;
+                }
+                Some((center_letter, letters, score))
             })
             .collect::<Vec<_>>()
     });
 
-    let top_10 = scores
+    scores
         .sorted_by_key(|x| -(x.2 as i32))
-        .take(10)
-        .collect::<Vec<_>>();
-    println!("{:?}", top_10);
+        .for_each(|(center, letters, score)| {
+            println!("{} {} {}", center, letters, score);
+        });
 }
 
 // The output is wrapped in a Result to allow matching on errors.
