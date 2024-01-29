@@ -145,7 +145,7 @@ fn score_board(
 
 fn main() {
     // hashmap between normalized words and the total score for all words that normalize to the same key
-    let preprocessed = preprocess("/usr/share/dict/web2");
+    let preprocessed = preprocess("enable.txt");
 
     let scores = LEGAL_LETTERS.iter().flat_map(|center_letter| {
         eprintln!("Processing center letter: {}", center_letter);

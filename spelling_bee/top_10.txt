@@ -1,430 +1,430 @@
-t aceinr 4641
-	Using Tace: acate, acetate, cate, teca
-	Using Taci: atactic, attic, cacti, tacit, tactic, ticca
-	Using Tacn: cant, cantata, catan
-	Using Tacr: attract, caract, carat, cart, cataract, tract
-	Using Taei: tatie
-	Using Taen: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Taer: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Tain: aint, anti, attain, attaint, initiant, naiant, niata, tain, taint, tania, tannin, tanti, tinta, titania, titian
-	Using Tair: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Tanr: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Tcei: ceti, cetic, cite, citee, tice
-	Using Tcen: cent, cetene, ctene, ectene
-	Using Tcer: erect, erecter, rect, tercer, tercet
-	Using Tcin: cinct, tinct
-	Using Tcir: citric, critic, iritic
-	Using Tcnr: 
-	Using Tein: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Teir: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Tenr: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Tinr: trin, trinitrin
-	Using Tacei: accite, acetacetic, acetic, ectatic, tactite
-	Using Tacen: accent, annectent, anteact, canette, cannet, canteen, catena, catenae, catenate, centena, cetacean, cetane, enact, tenace
-	Using Tacer: accrete, acerate, acetract, arcate, arrect, attracter, caracter, carcerate, caret, carte, carter, cater, caterer, cerata, cerate, crate, crater, creat, create, creta, ecarte, react, reattract, recart, recrate, recreate, recta, retrace, retract, teacart, tearcat, terrace, terracer, terracette, tetract, trace, tracer, tractate
-	Using Tacin: actin, actinian, actinic, antic, cantic, cantina, inactinic, incitant, intact, nictitant, tactician, tanica, tannaic, tannaitic, tannic, titanic, titanitic
-	Using Tacir: acratia, arctic, cataria, iatric, itatartaric, tariric, tartaric, triact, triarctic, triatic, trica, tricar, tritactic
-	Using Tacnr: attractant, cantar, cantara, crantara, nacarat
-	Using Taein: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Taeir: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Taenr: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Tainr: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Tcein: cetin, entice, incite
-	Using Tceir: cerite, certie, circiter, citer, cretic, eccritic, icteric, recite, reciter, recti, rectitic, tetric, ticer, tierce, trice, trieteric
-	Using Tcenr: center, centerer, centner, encenter, recent, recenter, recentre, tenrec
-	Using Tcinr: citrin, citrinin, nitric, triticin
-	Using Teinr: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Tacein: acacetin, acetannin, acetin, acinetan, acinetic, acinetinan, actine, actinine, ancient, antitetanic, enatic, enneatic, incatenate, naticine, nictate, nictitate, tanacetin, tetanic
-	Using Taceir: acierate, acrite, arteriarctia, atretic, ceratite, ceratitic, cetraric, cicatrice, cirrate, citrate, creatic, criteria, erratic, tercia, triace, triacetate, tricae, triceria
-	Using Tacenr: cancerate, canter, canterer, carcanet, carnate, cateran, centare, centenar, creant, crenate, eccentrate, entracte, entrance, nectar, nectarean, reactance, reactant, recant, recanter, recreant, tanrec, trance
-	Using Tacinr: acritan, actiniarian, antarctic, antarctica, anticritic, antiricin, antitartaric, arctian, arctician, incarnant, tantric, taririnic, tractarian
-	Using Taeinr: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Tceinr: centenier, centric, cinter, citrene, citrine, cittern, crenitic, cretin, cretinic, cricetine, crinet, crinite, eccentric, encrinite, encrinitic, enteric, enticer, icterine, incenter, inciter, internecine, irreticence, irreticent, neritic, reincite, renitence, reticence, reticent, tercine
-	Using Taceinr: acentric, acertannin, acinetarian, acraniate, anaeretic, anaretic, aneretic, anticancer, antiracer, arcanite, cancrinite, carinate, cataractine, catarinite, catenarian, centenarian, centiar, centiare, certain, cetrarin, circinate, citrean, craniate, creatine, creatinine, crinanite, ecarinate, encratic, enneateric, incarcerate, incarnate, incinerate, increate, inerratic, inertance, interacinar, interact, intercarrier, intercreate, interrace, intertrace, intricate, iterance, nacrite, natricine, nectarian, nectarine, reincarnate, reiterance, tarriance, tercentenarian, tetractine, triactine, tricarinate, tricentenarian
-t aeilnr 4494
-	Using Taei: tatie
-	Using Tael: alate, alette, atle, atlee, elate, laet, late, leat, tael, tale, tallet, tattle, tattletale, teal, telltale
-	Using Taen: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Taer: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Tail: aillt, alit, atilt, latitat, tail, tali, tallit
-	Using Tain: aint, anti, attain, attaint, initiant, naiant, niata, tain, taint, tania, tannin, tanti, tinta, titania, titian
-	Using Tair: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Taln: antal, atlantal, lant, natal
-	Using Talr: altar, artal, ratal, talar
-	Using Tanr: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Teil: elite, lite, little, teil, teli, tile, tillite, title, tittle
-	Using Tein: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Teir: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Teln: lent, letten, nettle, tentlet
-	Using Telr: lerret, letter, letterer, letteret, reetle, relet, reletter, retell, teller, treelet
-	Using Tenr: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Tiln: intil, lint
-	Using Tilr: tirl, trilit, trill, trilli
-	Using Tinr: trin, trinitrin
-	Using Tlnr: 
-	Using Taeil: ailette, alaite, alalite, alite, altaite, italite, laeti, latite, tailet, taille, taillie, talite, talliate, teallite, telial, tilaite, titilate
-	Using Taein: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Taeir: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Taeln: anteal, antenatal, antennal, elanet, ental, lanate, lanete, lateen, laten, latent, latten, leant, nantle, nattle, talent, tantalate, tantle, teanal
-	Using Taelr: alert, allatrate, altarlet, alter, alterate, alterer, arratel, artel, artlet, earlet, elater, later, latera, lateral, latter, ratel, rattle, rattler, rattlertree, realter, relata, relate, relater, retattle, retral, retreatal, taler, taleteller, taller, tartle, tartlet, tatler, tattler, tearlet, teetaller, telar, terral, terrella
-	Using Taenr: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Tailn: alantin, altin, antinial, antlia, initial, latitant, titillant
-	Using Tailr: atrail, atrial, lariat, latria, litra, rattail, talari, talaria, talliar, tirralirra, trail, tralira, trial
-	Using Tainr: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Talnr: antral, latrant, tarlatan, tarnal
-	Using Teiln: entitle, inlet, lenient, lennilite, lentil, linelet, linenette, linnet, lintel, linten, lintie, litten, tenline, tinlet
-	Using Teilr: liter, litter, litterer, retile, retill, rillet, rillett, rillette, tiler, tiller, tilter, tirrlie, titler, titterel, tittler, trilite, trillet
-	Using Teinr: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Telnr: nettler, relent, ternlet
-	Using Tilnr: trilliin
-	Using Taeiln: ailantine, alienate, allalinite, allanite, allineate, anteinitial, antenatalitial, antialien, antliate, atlantite, entail, laniate, lillianite, lineate, linnaeite, taenial, tantalite, tenaille, tetanilla, tineal
-	Using Taeilr: alliteral, alliterate, arillate, arterial, artiller, atelier, elaterite, illiteral, illiterate, irrelate, laterite, lirate, lirellate, literal, literate, literati, retail, retailer, retaliate, retial, retiral, retrial, tailer, taliera, tallier, teetertail, teretial, tertial, tiarella, tiralee, titillater, trailer, trialate, triareal, trilateral, triliteral
-	Using Taeinr: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Taelnr: alatern, alterant, altern, alternant, alternate, alterne, antler, enteral, eternal, lanneret, lantern, lateener, lattener, learnt, rattleran, rental, rentaler, rentaller, rerental, tarantella, tarentala, tarletan, teleran, teneral, ternal, trental
-	Using Tailnr: intranarial, intranatal, trinal
-	Using Teilnr: interlie, interline, interliner, intertill, letterin, lettrin, linter, lintern, nitrile, trintle
-	Using Taeilnr: antenarial, antirattler, antlerite, elaterin, entailer, entrail, inertial, initialer, interalar, interantennal, interatrial, interlineal, interlinear, interlineate, internal, internarial, interrelate, interrenal, intrarenal, intraretinal, latrine, lienteria, linarite, literarian, nitraniline, ratline, ratliner, realienate, reliant, retainal, retinal, retinalite, telarian, territelarian, tertrinal, treenail, trenail, triennial, triental, trilinear, trilineate
-r aceint 4468
-	Using Race: acerra, acre, care, career, careerer, carer, crare, crea, race, racer
-	Using Raci: acari, aracari, circa, ricrac
-	Using Racn: anacara, arcana, caranna, cran
-	Using Ract: attract, caract, carat, cart, cataract, tract
-	Using Raei: aerie, aire, airer, arrie, arriere, eria
-	Using Raen: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Raet: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Rain: airan, arain, arni, irian, rain, ranarian, rani, raninian
-	Using Rait: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Rant: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Rcei: cerci, ceric, cicer, crier, eric, rice, ricer
-	Using Rcen: cern, creen
-	Using Rcet: erect, erecter, rect, tercer, tercet
-	Using Rcin: crin, ricin, ricinic, ricininic
-	Using Rcit: citric, critic, iritic
-	Using Rcnt: 
-	Using Rein: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Reit: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Rent: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Rint: trin, trinitrin
-	Using Racei: acier, aeric, carrier, cercaria, ceria, recarrier
-	Using Racen: arcane, cancer, caner, canner, carane, careen, careener, carene, crance, crane, craner, creance, creancer, crena, enrace, nacre, rance, rancer, recreance
-	Using Racet: accrete, acerate, acetract, arcate, arrect, attracter, caracter, carcerate, caret, carte, carter, cater, caterer, cerata, cerate, crate, crater, creat, create, creta, ecarte, react, reattract, recart, recrate, recreate, recta, retrace, retract, teacart, tearcat, terrace, terracer, terracette, tetract, trace, tracer, tractate
-	Using Racin: acarian, acinar, arnica, cairn, canari, canarin, carina, carnic, crain, crania, cranian, cranic, incarn, naric, narica
-	Using Racit: acratia, arctic, cataria, iatric, itatartaric, tariric, tartaric, triact, triarctic, triatic, trica, tricar, tritactic
-	Using Racnt: attractant, cantar, cantara, crantara, nacarat
-	Using Raein: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Raeit: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Raent: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Raint: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Rcein: cerin, cerine, crenic, crine, encrinic, irenic, ricine, ricinine
-	Using Rceit: cerite, certie, circiter, citer, cretic, eccritic, icteric, recite, reciter, recti, rectitic, tetric, ticer, tierce, trice, trieteric
-	Using Rcent: center, centerer, centner, encenter, recent, recenter, recentre, tenrec
-	Using Rcint: citrin, citrinin, nitric, triticin
-	Using Reint: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Racein: acarine, acerin, acraein, arecain, arecaine, aricine, cariacine, cearin, cercarian, cinerea, nacarine, nacrine, narceine
-	Using Raceit: acierate, acrite, arteriarctia, atretic, ceratite, ceratitic, cetraric, cicatrice, cirrate, citrate, creatic, criteria, erratic, tercia, triace, triacetate, tricae, triceria
-	Using Racent: cancerate, canter, canterer, carcanet, carnate, cateran, centare, centenar, creant, crenate, eccentrate, entracte, entrance, nectar, nectarean, reactance, reactant, recant, recanter, recreant, tanrec, trance
-	Using Racint: acritan, actiniarian, antarctic, antarctica, anticritic, antiricin, antitartaric, arctian, arctician, incarnant, tantric, taririnic, tractarian
-	Using Raeint: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Rceint: centenier, centric, cinter, citrene, citrine, cittern, crenitic, cretin, cretinic, cricetine, crinet, crinite, eccentric, encrinite, encrinitic, enteric, enticer, icterine, incenter, inciter, internecine, irreticence, irreticent, neritic, reincite, renitence, reticence, reticent, tercine
-	Using Raceint: acentric, acertannin, acinetarian, acraniate, anaeretic, anaretic, aneretic, anticancer, antiracer, arcanite, cancrinite, carinate, cataractine, catarinite, catenarian, centenarian, centiar, centiare, certain, cetrarin, circinate, citrean, craniate, creatine, creatinine, crinanite, ecarinate, encratic, enneateric, incarcerate, incarnate, incinerate, increate, inerratic, inertance, interacinar, interact, intercarrier, intercreate, interrace, intertrace, intricate, iterance, nacrite, natricine, nectarian, nectarine, reincarnate, reiterance, tarriance, tercentenarian, tetractine, triactine, tricarinate, tricentenarian
-e ailnrt 4400
-	Using Eail: aiel, aile
-	Using Eain: inane
-	Using Eair: aerie, aire, airer, arrie, arriere, eria
-	Using Eait: tatie
-	Using Ealn: alen, allene, anele, annale, anneal, lane, lean, nael, neal
-	Using Ealr: aller, areal, areel, earl, eral, lear, rale, reaal, real, reelrall
-	Using Ealt: alate, alette, atle, atlee, elate, laet, late, leat, tael, tale, tallet, tattle, tattletale, teal, telltale
-	Using Eanr: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Eant: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Eart: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Eiln: lien, lienee, line, linen, linie
-	Using Eilr: lier, lierre, lire, relier, rile
-	Using Eilt: elite, lite, little, teil, teli, tile, tillite, title, tittle
-	Using Einr: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Eint: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Eirt: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Elnr: 
-	Using Elnt: lent, letten, nettle, tentlet
-	Using Elrt: lerret, letter, letterer, letteret, reetle, relet, reletter, retell, teller, treelet
-	Using Enrt: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Eailn: alanine, alien, alienee, alnein, anile, aniline, annaline, elain, elaine, laine, lienal, linea, lineal
-	Using Eailr: aerial, aralie, ariel, lirella, railer, rallier, rerail
-	Using Eailt: ailette, alaite, alalite, alite, altaite, italite, laeti, latite, tailet, taille, taillie, talite, talliate, teallite, telial, tilaite, titilate
-	Using Eainr: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Eaint: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Eairt: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Ealnr: annealer, lanner, leaner, learn, learner, rannel, reanneal, relearn, renal
-	Using Ealnt: anteal, antenatal, antennal, elanet, ental, lanate, lanete, lateen, laten, latent, latten, leant, nantle, nattle, talent, tantalate, tantle, teanal
-	Using Ealrt: alert, allatrate, altarlet, alter, alterate, alterer, arratel, artel, artlet, earlet, elater, later, latera, lateral, latter, ratel, rattle, rattler, rattlertree, realter, relata, relate, relater, retattle, retral, retreatal, taler, taleteller, taller, tartle, tartlet, tatler, tattler, tearlet, teetaller, telar, terral, terrella
-	Using Eanrt: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Eilnr: inlier, lierne, liner, lirelline, reline, reliner
-	Using Eilnt: entitle, inlet, lenient, lennilite, lentil, linelet, linenette, linnet, lintel, linten, lintie, litten, tenline, tinlet
-	Using Eilrt: liter, litter, litterer, retile, retill, rillet, rillett, rillette, tiler, tiller, tilter, tirrlie, titler, titterel, tittler, trilite, trillet
-	Using Einrt: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Elnrt: nettler, relent, ternlet
-	Using Eailnr: airliner, aliener, larine, linear, nailer, ralline, renail
-	Using Eailnt: ailantine, alienate, allalinite, allanite, allineate, anteinitial, antenatalitial, antialien, antliate, atlantite, entail, laniate, lillianite, lineate, linnaeite, taenial, tantalite, tenaille, tetanilla, tineal
-	Using Eailrt: alliteral, alliterate, arillate, arterial, artiller, atelier, elaterite, illiteral, illiterate, irrelate, laterite, lirate, lirellate, literal, literate, literati, retail, retailer, retaliate, retial, retiral, retrial, tailer, taliera, tallier, teetertail, teretial, tertial, tiarella, tiralee, titillater, trailer, trialate, triareal, trilateral, triliteral
-	Using Eainrt: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Ealnrt: alatern, alterant, altern, alternant, alternate, alterne, antler, enteral, eternal, lanneret, lantern, lateener, lattener, learnt, rattleran, rental, rentaler, rentaller, rerental, tarantella, tarentala, tarletan, teleran, teneral, ternal, trental
-	Using Eilnrt: interlie, interline, interliner, intertill, letterin, lettrin, linter, lintern, nitrile, trintle
-	Using Eailnrt: antenarial, antirattler, antlerite, elaterin, entailer, entrail, inertial, initialer, interalar, interantennal, interatrial, interlineal, interlinear, interlineate, internal, internarial, interrelate, interrenal, intrarenal, intraretinal, latrine, lienteria, linarite, literarian, nitraniline, ratline, ratliner, realienate, reliant, retainal, retinal, retinalite, telarian, territelarian, tertrinal, treenail, trenail, triennial, triental, trilinear, trilineate
-e acinrt 4392
-	Using Eaci: 
-	Using Eacn: acne, cane, nace
-	Using Eacr: acerra, acre, care, career, careerer, carer, crare, crea, race, racer
-	Using Eact: acate, acetate, cate, teca
-	Using Eain: inane
-	Using Eair: aerie, aire, airer, arrie, arriere, eria
-	Using Eait: tatie
-	Using Eanr: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Eant: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Eart: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Ecin: cine, cinene, nice, niece
-	Using Ecir: cerci, ceric, cicer, crier, eric, rice, ricer
-	Using Ecit: ceti, cetic, cite, citee, tice
-	Using Ecnr: cern, creen
-	Using Ecnt: cent, cetene, ctene, ectene
-	Using Ecrt: erect, erecter, rect, tercer, tercet
-	Using Einr: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Eint: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Eirt: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Enrt: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Eacin: ancience, canine, encaenia, encina, eniac, neanic
-	Using Eacir: acier, aeric, carrier, cercaria, ceria, recarrier
-	Using Eacit: accite, acetacetic, acetic, ectatic, tactite
-	Using Eacnr: arcane, cancer, caner, canner, carane, careen, careener, carene, crance, crane, craner, creance, creancer, crena, enrace, nacre, rance, rancer, recreance
-	Using Eacnt: accent, annectent, anteact, canette, cannet, canteen, catena, catenae, catenate, centena, cetacean, cetane, enact, tenace
-	Using Eacrt: accrete, acerate, acetract, arcate, arrect, attracter, caracter, carcerate, caret, carte, carter, cater, caterer, cerata, cerate, crate, crater, creat, create, creta, ecarte, react, reattract, recart, recrate, recreate, recta, retrace, retract, teacart, tearcat, terrace, terracer, terracette, tetract, trace, tracer, tractate
-	Using Eainr: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Eaint: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Eairt: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Eanrt: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Ecinr: cerin, cerine, crenic, crine, encrinic, irenic, ricine, ricinine
-	Using Ecint: cetin, entice, incite
-	Using Ecirt: cerite, certie, circiter, citer, cretic, eccritic, icteric, recite, reciter, recti, rectitic, tetric, ticer, tierce, trice, trieteric
-	Using Ecnrt: center, centerer, centner, encenter, recent, recenter, recentre, tenrec
-	Using Einrt: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Eacinr: acarine, acerin, acraein, arecain, arecaine, aricine, cariacine, cearin, cercarian, cinerea, nacarine, nacrine, narceine
-	Using Eacint: acacetin, acetannin, acetin, acinetan, acinetic, acinetinan, actine, actinine, ancient, antitetanic, enatic, enneatic, incatenate, naticine, nictate, nictitate, tanacetin, tetanic
-	Using Eacirt: acierate, acrite, arteriarctia, atretic, ceratite, ceratitic, cetraric, cicatrice, cirrate, citrate, creatic, criteria, erratic, tercia, triace, triacetate, tricae, triceria
-	Using Eacnrt: cancerate, canter, canterer, carcanet, carnate, cateran, centare, centenar, creant, crenate, eccentrate, entracte, entrance, nectar, nectarean, reactance, reactant, recant, recanter, recreant, tanrec, trance
-	Using Eainrt: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Ecinrt: centenier, centric, cinter, citrene, citrine, cittern, crenitic, cretin, cretinic, cricetine, crinet, crinite, eccentric, encrinite, encrinitic, enteric, enticer, icterine, incenter, inciter, internecine, irreticence, irreticent, neritic, reincite, renitence, reticence, reticent, tercine
-	Using Eacinrt: acentric, acertannin, acinetarian, acraniate, anaeretic, anaretic, aneretic, anticancer, antiracer, arcanite, cancrinite, carinate, cataractine, catarinite, catenarian, centenarian, centiar, centiare, certain, cetrarin, circinate, citrean, craniate, creatine, creatinine, crinanite, ecarinate, encratic, enneateric, incarcerate, incarnate, incinerate, increate, inerratic, inertance, interacinar, interact, intercarrier, intercreate, interrace, intertrace, intricate, iterance, nacrite, natricine, nectarian, nectarine, reincarnate, reiterance, tarriance, tercentenarian, tetractine, triactine, tricarinate, tricentenarian
-a ceinrt 4315
-	Using Acei: 
-	Using Acen: acne, cane, nace
-	Using Acer: acerra, acre, care, career, careerer, carer, crare, crea, race, racer
-	Using Acet: acate, acetate, cate, teca
-	Using Acin: acaciin, acacin, acinic, cain, niacin
-	Using Acir: acari, aracari, circa, ricrac
-	Using Acit: atactic, attic, cacti, tacit, tactic, ticca
-	Using Acnr: anacara, arcana, caranna, cran
-	Using Acnt: cant, cantata, catan
-	Using Acrt: attract, caract, carat, cart, cataract, tract
-	Using Aein: inane
-	Using Aeir: aerie, aire, airer, arrie, arriere, eria
-	Using Aeit: tatie
-	Using Aenr: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Aent: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Aert: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Ainr: airan, arain, arni, irian, rain, ranarian, rani, raninian
-	Using Aint: aint, anti, attain, attaint, initiant, naiant, niata, tain, taint, tania, tannin, tanti, tinta, titania, titian
-	Using Airt: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Anrt: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Acein: ancience, canine, encaenia, encina, eniac, neanic
-	Using Aceir: acier, aeric, carrier, cercaria, ceria, recarrier
-	Using Aceit: accite, acetacetic, acetic, ectatic, tactite
-	Using Acenr: arcane, cancer, caner, canner, carane, careen, careener, carene, crance, crane, craner, creance, creancer, crena, enrace, nacre, rance, rancer, recreance
-	Using Acent: accent, annectent, anteact, canette, cannet, canteen, catena, catenae, catenate, centena, cetacean, cetane, enact, tenace
-	Using Acert: accrete, acerate, acetract, arcate, arrect, attracter, caracter, carcerate, caret, carte, carter, cater, caterer, cerata, cerate, crate, crater, creat, create, creta, ecarte, react, reattract, recart, recrate, recreate, recta, retrace, retract, teacart, tearcat, terrace, terracer, terracette, tetract, trace, tracer, tractate
-	Using Acinr: acarian, acinar, arnica, cairn, canari, canarin, carina, carnic, crain, crania, cranian, cranic, incarn, naric, narica
-	Using Acint: actin, actinian, actinic, antic, cantic, cantina, inactinic, incitant, intact, nictitant, tactician, tanica, tannaic, tannaitic, tannic, titanic, titanitic
-	Using Acirt: acratia, arctic, cataria, iatric, itatartaric, tariric, tartaric, triact, triarctic, triatic, trica, tricar, tritactic
-	Using Acnrt: attractant, cantar, cantara, crantara, nacarat
-	Using Aeinr: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Aeint: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Aeirt: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Aenrt: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Ainrt: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Aceinr: acarine, acerin, acraein, arecain, arecaine, aricine, cariacine, cearin, cercarian, cinerea, nacarine, nacrine, narceine
-	Using Aceint: acacetin, acetannin, acetin, acinetan, acinetic, acinetinan, actine, actinine, ancient, antitetanic, enatic, enneatic, incatenate, naticine, nictate, nictitate, tanacetin, tetanic
-	Using Aceirt: acierate, acrite, arteriarctia, atretic, ceratite, ceratitic, cetraric, cicatrice, cirrate, citrate, creatic, criteria, erratic, tercia, triace, triacetate, tricae, triceria
-	Using Acenrt: cancerate, canter, canterer, carcanet, carnate, cateran, centare, centenar, creant, crenate, eccentrate, entracte, entrance, nectar, nectarean, reactance, reactant, recant, recanter, recreant, tanrec, trance
-	Using Acinrt: acritan, actiniarian, antarctic, antarctica, anticritic, antiricin, antitartaric, arctian, arctician, incarnant, tantric, taririnic, tractarian
-	Using Aeinrt: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Aceinrt: acentric, acertannin, acinetarian, acraniate, anaeretic, anaretic, aneretic, anticancer, antiracer, arcanite, cancrinite, carinate, cataractine, catarinite, catenarian, centenarian, centiar, centiare, certain, cetrarin, circinate, citrean, craniate, creatine, creatinine, crinanite, ecarinate, encratic, enneateric, incarcerate, incarnate, incinerate, increate, inerratic, inertance, interacinar, interact, intercarrier, intercreate, interrace, intertrace, intricate, iterance, nacrite, natricine, nectarian, nectarine, reincarnate, reiterance, tarriance, tercentenarian, tetractine, triactine, tricarinate, tricentenarian
-e aginrt 4242
-	Using Eagi: 
-	Using Eagn: agen, enage, engage, gaen, gane, gange, gean, gena
-	Using Eagr: aerage, ager, agger, agre, agree, agreer, agrege, arrearage, eager, eagre, gager, gagger, garage, gare, gear, rage, rager, raggee, ragger, reagree
-	Using Eagt: agate, eatage, gaet, gagate, gate, gateage, geat, geta
-	Using Eain: inane
-	Using Eair: aerie, aire, airer, arrie, arriere, eria
-	Using Eait: tatie
-	Using Eanr: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Eant: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Eart: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Egin: egging, eigne, engine, gein, genie, genii, genin, gien
-	Using Egir: gigger, greige, rerig, rigger
-	Using Egit: tige
-	Using Egnr: engreen, genre, green, greener, neeger, neger, reenge, regreen, reneg, renege, reneger
-	Using Egnt: genet, gent, teng
-	Using Egrt: egret, getter, greet, greeter, reget, regreet, regret, regretter, tregerg
-	Using Einr: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Eint: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Eirt: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Enrt: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Eagin: engaging, gainage, gaine, genian, naigie
-	Using Eagir: arriage, geira, giarre, gigeria, regia
-	Using Eagit: agitate, gageite
-	Using Eagnr: anger, areng, arrange, arranger, egeran, engager, enrage, enrange, ganger, gangrene, ganner, garner, garnerage, genear, genera, granage, grane, grange, granger, greenage, greengage, nagger, range, ranger, rearrange, rearranger
-	Using Eagnt: agent, agnate, attagen, gannet, geneat, naegate, negate, tangent, tannage, teenage, tentage
-	Using Eagrt: aggerate, aggrate, aggregate, eggeater, garetta, garget, garret, garreteer, garter, gater, gatter, gerate, grate, grater, great, greater, rattage, reaggregate, regatta, regrate, regrater, retag, tagger, tarage, targe, targer, target, targeteer, tearage, terrage
-	Using Eainr: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Eaint: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Eairt: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Eanrt: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Eginr: engineer, engineering, enring, erring, ginger, gingerin, ginner, greening, grein, grinner, inerring, inrigger, negrine, nigger, nigre, nigrine, regin, reign, rereign, rering, ringe, ringer
-	Using Egint: getting, ignite, ingenit, netting, teeting, tinge
-	Using Egirt: gigtree, gritter, riggite, tergite, tiger, tigger, trigger
-	Using Egnrt: gerent, regent, tengere
-	Using Einrt: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Eaginr: aegerian, aegirine, agreeing, anenergia, anergia, arginine, arraigner, earing, earning, earring, energeia, engrain, engrainer, gainer, gearing, grainage, grainer, grainering, gregarian, gregarine, naringenin, reagin, regain, regainer
-	Using Eagint: agatine, antigen, antitangent, attinge, attingent, eating, gentian, gentianin, gigantean, gignate, ingate, tangeite, tangie, tintage
-	Using Eagirt: aegirite, aigrette, ariegite, arteriagra, gaiter, irrigate, reagitate, reirrigate, tairge, tairger, triage
-	Using Eagnrt: aggregant, argent, argentate, argenter, atragene, garnet, garneter, garnett, garnetter, garten, generant, generate, gnatter, granate, grantee, granter, gratten, greaten, reagent, regenerant, regenerate, regnant, regrant, rentage, tanager, tanger, tergant
-	Using Eainrt: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Eginrt: engirt, entering, gittern, greeting, grignet, grintern, gritten, igniter, integer, interreign, intertinge, reignite, renneting, retiring, retting, ringent, ringite, rittingerite, tengerite, tigrine, tinger, tittering, tringine
-	Using Eaginrt: angrite, antiager, argentine, argentinitrate, argentite, enargite, entertaining, entreating, garnierite, gartering, generating, grangerite, granite, granitite, gratinate, ingenerate, ingrate, ingratiate, integrant, integrate, interagent, interagree, intergenerant, intergenerating, interregna, intertragian, irregenerate, regrating, reingratiate, reintegrate, retaining, retreating, tanagrine, tearing, trainage, treating, tritangent
-r aegint 4134
-	Using Raeg: aerage, ager, agger, agre, agree, agreer, agrege, arrearage, eager, eagre, gager, gagger, garage, gare, gear, rage, rager, raggee, ragger, reagree
-	Using Raei: aerie, aire, airer, arrie, arriere, eria
-	Using Raen: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Raet: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Ragi: agria, gair, giarra
-	Using Ragn: aranga, garn, garran, gnar, nagara, rang
-	Using Ragt: grat, ragtag, tagrag, trag
-	Using Rain: airan, arain, arni, irian, rain, ranarian, rani, raninian
-	Using Rait: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Rant: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Regi: gigger, greige, rerig, rigger
-	Using Regn: engreen, genre, green, greener, neeger, neger, reenge, regreen, reneg, renege, reneger
-	Using Regt: egret, getter, greet, greeter, reget, regreet, regret, regretter, tregerg
-	Using Rein: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Reit: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Rent: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Rgin: girn, grin, grinning, inring, rigging, ring, ringing
+r aegint 3784
+	Using Raeg: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Raei: aerie, aerier, airer, airier
+	Using Raen: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Raet: aerate, arete, eater, errata, rate, rater, ratter, reata, retear, retreat, retreater, tare, tarre, tarter, tartrate, tater, tatter, tear, tearer, terra, terrae, tetra, treat, treater
+	Using Ragi: agria, ragi
+	Using Ragn: gnar, gnarr, gran, grana, rang
+	Using Ragt: grat, ragtag, tagrag
+	Using Rain: airn, naira, rain, rani
+	Using Rait: airt, atria, riata, tiara, trait
+	Using Rant: antra, arrant, rant, ratan, rattan, tantara, tantra, tarn, tartan, tartana
+	Using Regi: greige, rerig, rigger
+	Using Regn: genre, green, greener, regreen, renege, reneger
+	Using Regt: egret, getter, greet, greeter, regreet, regret, regretter
+	Using Rein: inner, rein, renin, rennin
+	Using Reit: retie, retire, retiree, retirer, rite, ritter, terrier, territ, tier, tire, titer, titre, titter, titterer, trier, trite, triter
+	Using Rent: enter, enterer, entree, eterne, netter, reenter, rennet, rent, rente, renter, retene, teener, tenner, tenter, tern, terne, terreen, terrene, treen
+	Using Rgin: girn, girning, grin, grinning, iring, rigging, ring, ringing, rinning
 	Using Rgit: girt, grit, trig
 	Using Rgnt: 
-	Using Rint: trin, trinitrin
-	Using Raegi: arriage, geira, giarre, gigeria, regia
-	Using Raegn: anger, areng, arrange, arranger, egeran, engager, enrage, enrange, ganger, gangrene, ganner, garner, garnerage, genear, genera, granage, grane, grange, granger, greenage, greengage, nagger, range, ranger, rearrange, rearranger
-	Using Raegt: aggerate, aggrate, aggregate, eggeater, garetta, garget, garret, garreteer, garter, gater, gatter, gerate, grate, grater, great, greater, rattage, reaggregate, regatta, regrate, regrater, retag, tagger, tarage, targe, targer, target, targeteer, tearage, terrage
-	Using Raein: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Raeit: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Raent: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Ragin: agrarian, agrin, airing, angaria, arraign, grain, graining, ingrain, naringin, ragging, raging, ranging
-	Using Ragit: agarita, tragi
+	Using Rint: 
+	Using Raegi: 
+	Using Raegn: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Raegt: aggregate, ergate, etagere, garget, garret, garter, grate, grater, great, greater, reaggregate, regatta, regrate, retag, retarget, tagger, targe, target, terga
+	Using Raein: inaner, narine, rainier
+	Using Raeit: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Raent: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Ragin: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Ragit: tragi
 	Using Ragnt: grant
-	Using Raint: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Regin: engineer, engineering, enring, erring, ginger, gingerin, ginner, greening, grein, grinner, inerring, inrigger, negrine, nigger, nigre, nigrine, regin, reign, rereign, rering, ringe, ringer
-	Using Regit: gigtree, gritter, riggite, tergite, tiger, tigger, trigger
-	Using Regnt: gerent, regent, tengere
-	Using Reint: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Rgint: tiring
-	Using Raegin: aegerian, aegirine, agreeing, anenergia, anergia, arginine, arraigner, earing, earning, earring, energeia, engrain, engrainer, gainer, gearing, grainage, grainer, grainering, gregarian, gregarine, naringenin, reagin, regain, regainer
-	Using Raegit: aegirite, aigrette, ariegite, arteriagra, gaiter, irrigate, reagitate, reirrigate, tairge, tairger, triage
-	Using Raegnt: aggregant, argent, argentate, argenter, atragene, garnet, garneter, garnett, garnetter, garten, generant, generate, gnatter, granate, grantee, granter, gratten, greaten, reagent, regenerant, regenerate, regnant, regrant, rentage, tanager, tanger, tergant
-	Using Raeint: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Ragint: grating, ingratiating, intrigant, irrigant, irritating, rangatira, ranting, rating, training
-	Using Regint: engirt, entering, gittern, greeting, grignet, grintern, gritten, igniter, integer, interreign, intertinge, reignite, renneting, retiring, retting, ringent, ringite, rittingerite, tengerite, tigrine, tinger, tittering, tringine
-	Using Raegint: angrite, antiager, argentine, argentinitrate, argentite, enargite, entertaining, entreating, garnierite, gartering, generating, grangerite, granite, granitite, gratinate, ingenerate, ingrate, ingratiate, integrant, integrate, interagent, interagree, intergenerant, intergenerating, interregna, intertragian, irregenerate, regrating, reingratiate, reintegrate, retaining, retreating, tanagrine, tearing, trainage, treating, tritangent
-t aeimnr 4128
-	Using Taei: tatie
-	Using Taem: mammate, mate, matte, meat, meta, metate, tame, team, teammate, tmema
-	Using Taen: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Taer: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Taim: matai, matti
-	Using Tain: aint, anti, attain, attaint, initiant, naiant, niata, tain, taint, tania, tannin, tanti, tinta, titania, titian
-	Using Tair: airt, arati, atria, ratti, riata, rita, tarairi, tari, tarri, tiar, tiara, titar, trait, triarii
-	Using Tamn: amtman, ataman, atman, mant, manta
-	Using Tamr: mart, matara, matra, tamara, tram, trama
-	Using Tanr: antra, arrant, natr, rant, rantan, rattan, tantara, tantarara, tantra, tarantara, taratantara, tarn, tartan, tartana, trant
-	Using Teim: emit, item, mimetite, mite, time
-	Using Tein: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Teir: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Temn: meeten, tenement
-	Using Temr: meeter, meter, metrete, remeet, retem, teemer, term, termer
-	Using Tenr: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Timn: mint
-	Using Timr: trim
-	Using Tinr: trin, trinitrin
-	Using Tmnr: 
-	Using Taeim: imamate, imitate, imitatee, tammie, teatime
-	Using Taein: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Taeir: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Taemn: ament, emanant, emanate, entame, manatee, manent, meant, meatman, netman, teaman, teamman, teatman, teman, tentamen, tentmate
-	Using Taemr: ammeter, amreeta, armet, mater, matter, matterate, metamer, metamere, metra, metreta, mettar, ramate, ramet, reetam, retama, retame, tamer, tartramate, teamer, terma, terramara, terramare, tetrameter, trame, trammer
-	Using Taenr: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Taimn: amanitin, imitant, intima, maint, maintain, matin, minitant, mintman, tannaim, tinman, titman
-	Using Taimr: amrita, marmit, mitra, timar, tirma, trimtram
-	Using Tainr: antiar, antiarin, antrin, inirritant, intrait, intrant, irritant, riant, tairn, tarin, train, trinitarian
-	Using Tamnr: mantra, tarman, tramman
-	Using Teimn: emetine, eminent, emittent, imminent, mimetene, minette, mitten, temin
-	Using Teimr: emitter, eremite, immerit, merit, meriter, metier, miter, miterer, mitre, mitrer, remit, remittee, remitter, retime, retrim, retrimmer, termite, termtime, timer, tremie, trimer, trimerite, trimeter, trimmer, trireme
-	Using Teinr: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Temnr: entermete, tenementer, termen
-	Using Timnr: 
-	Using Taeimn: amanitine, amentia, aminate, anamite, animate, attainment, attaintment, etamine, immanent, inanimate, inmate, intimate, maenaite, maintainment, manatine, mannite, matinee, metatitanate, miniate, taimen, taintment, tamein, tiemannite, tinamine, tineman
-	Using Taeimr: ametria, emirate, imaret, immateriate, maritime, marmatite, marmite, martite, materiate, metria, mirate, mitrate, rimate, tamaraite
-	Using Taeinr: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Taemnr: armament, atrament, entreatment, manrent, manter, marten, matranee, meterman, metranate, nemertean, rament, ratement, rearmament, remanent, remanet, remeant, remnant, retreatment, treatment, treeman
-	Using Taimnr: anamirtin, martin, tamarin, trainman
-	Using Teimnr: interim, intermeet, interment, intermine, intermit, intermittent, intermitter, internment, mentimeter, merriment, minter, nemertine, reinterment, remint, remitment, remittent, retirement, termin, termine, terminer, termini, terminine
-	Using Taeimnr: amarantite, animater, antimere, antimeter, attermine, atterminement, attirement, entertainment, entrainment, intemerate, interamnian, interanimate, intermarine, intermat, interminant, interminate, interteam, intimater, irritament, maintainer, marinate, martinet, martineta, metranemia, minaret, nemertinean, nitramine, raiment, reanimate, reattainment, reintimate, remaintain, terminant, terminate, tetramin, tetramine, tetrammine, tintamarre, tireman, traintime, triamine
-e aimnrt 4116
-	Using Eaim: 
-	Using Eain: inane
-	Using Eair: aerie, aire, airer, arrie, arriere, eria
-	Using Eait: tatie
-	Using Eamn: ameen, amen, amene, enam, enema, mane, mean, name, nema
-	Using Eamr: ammer, armer, arrame, mammer, marae, mare, maremma, marree, marrer, rame, rammer, ream, reamer, reamerer, rearm
-	Using Eamt: mammate, mate, matte, meat, meta, metate, tame, team, teammate, tmema
-	Using Eanr: anear, arena, arenae, arnee, earn, earner, near, rane
-	Using Eant: anent, annet, ante, antenna, antennae, antennate, attent, eaten, enate, etna, neat, neaten, nenta, taen, tane, tannate, tean, teetan, tenant
-	Using Eart: aerate, arete, ateeter, atter, eater, errata, rate, rater, ratter, rerate, retare, retreat, retreater, tare, tarea, tarrer, tartaret, tartrate, tater, tatter, teaer, tear, tearer, teart, tera, terrar, tetra, treat, treatee, treater
-	Using Eimn: imine, mein, meinie, mien, mimine, mine, minnie
-	Using Eimr: eimer, emir, mimer, mire, reim, riem, rime, rimer, rimmer
-	Using Eimt: emit, item, mimetite, mite, time
-	Using Einr: inner, irene, nerine, rein, renin, rennin, rine, rinner
-	Using Eint: innet, intent, intine, neti, nineteen, tien, tine, tineine, tinnet, tintie, titien
-	Using Eirt: errite, iter, reit, reiter, retie, retier, retire, retirer, rite, terrier, tier, tierer, tire, tirer, tirret, titer, titre, titter, titterer, trier, trite
-	Using Emnr: 
-	Using Emnt: meeten, tenement
-	Using Emrt: meeter, meter, metrete, remeet, retem, teemer, term, termer
-	Using Enrt: enter, enterer, entree, neter, netter, renet, rennet, rent, rentee, renter, rerent, retene, retent, tenner, tenter, tenterer, tern, terne, terrene, treen
-	Using Eaimn: amenia, amine, ammine, anaemia, anemia, anime, immane, manei, manienie, mannie, meminna
-	Using Eaimr: aimer, maimer, maire, mararie, marrier, ramie
-	Using Eaimt: imamate, imitate, imitatee, tammie, teatime
-	Using Eainr: aerarian, aranein, arenariae, narine, rainer, ranine, reina
-	Using Eaint: anatine, aniente, annite, antenati, antiae, entia, initiate, innate, taenia, taenian, taeniate, taenite, taennin, tenai, tennantite, tetanine, tinea, tinean, titanate, titanite
-	Using Eairt: arietta, arite, attire, attirer, attrite, irate, irritate, itatartrate, iterate, ratite, reattire, reiterate, retia, tarie, tarrie, tarrier, tertia, tertiate, titrate
-	Using Eamnr: enarm, enarme, manner, meaner, merman, namer, rammerman, reman, rename
-	Using Eamnt: ament, emanant, emanate, entame, manatee, manent, meant, meatman, netman, teaman, teamman, teatman, teman, tentamen, tentmate
-	Using Eamrt: ammeter, amreeta, armet, mater, matter, matterate, metamer, metamere, metra, metreta, mettar, ramate, ramet, reetam, retama, retame, tamer, tartramate, teamer, terma, terramara, terramare, tetrameter, trame, trammer
-	Using Eanrt: anareta, anteater, antre, arent, arrent, attern, enterate, entrant, entreat, errant, narrate, narrater, natter, ranter, ratteen, ratten, rattener, rentrant, retan, retanner, retenant, retreatant, tanner, tarente, tartane, tarten, tenanter, terna, ternar, ternate, terrane, terranean, tertenant, tetrane, traneen, tranter
-	Using Eimnr: ermine, erminee, inerm, miner, nimmer
-	Using Eimnt: emetine, eminent, emittent, imminent, mimetene, minette, mitten, temin
-	Using Eimrt: emitter, eremite, immerit, merit, meriter, metier, miter, miterer, mitre, mitrer, remit, remittee, remitter, retime, retrim, retrimmer, termite, termtime, timer, tremie, trimer, trimerite, trimeter, trimmer, trireme
-	Using Einrt: entire, erinite, inert, inter, intern, internee, interrer, intertie, intrine, nereite, niter, nitrite, nitter, reinette, reinter, renitent, retin, retinene, retinite, rinneite, terrine, tinner, tinter, triene, trine
-	Using Emnrt: entermete, tenementer, termen
-	Using Eaimnr: amarine, marennin, marine, mariner, remain, remainer
-	Using Eaimnt: amanitine, amentia, aminate, anamite, animate, attainment, attaintment, etamine, immanent, inanimate, inmate, intimate, maenaite, maintainment, manatine, mannite, matinee, metatitanate, miniate, taimen, taintment, tamein, tiemannite, tinamine, tineman
-	Using Eaimrt: ametria, emirate, imaret, immateriate, maritime, marmatite, marmite, martite, materiate, metria, mirate, mitrate, rimate, tamaraite
-	Using Eainrt: antirennet, antirennin, antirent, antirenter, artarine, arterin, artinite, attainer, enteria, entertain, entertainer, entrain, entrainer, inerrant, inertia, intenerate, intereat, intertrinitarian, intreat, iterant, itinerant, itinerarian, itinerate, nitrate, nitratine, ratine, rattinet, reattain, reinitiate, reiterant, retain, retainer, retiarian, retina, retinian, retrain, tanier, ternariant, terrain, tertian, tertiana, tertiarian, tetranitrate, tinetare, trainee, trainer, triaene, trinitrate, triternate
-	Using Eamnrt: armament, atrament, entreatment, manrent, manter, marten, matranee, meterman, metranate, nemertean, rament, ratement, rearmament, remanent, remanet, remeant, remnant, retreatment, treatment, treeman
-	Using Eimnrt: interim, intermeet, interment, intermine, intermit, intermittent, intermitter, internment, mentimeter, merriment, minter, nemertine, reinterment, remint, remitment, remittent, retirement, termin, termine, terminer, termini, terminine
-	Using Eaimnrt: amarantite, animater, antimere, antimeter, attermine, atterminement, attirement, entertainment, entrainment, intemerate, interamnian, interanimate, intermarine, intermat, interminant, interminate, interteam, intimater, irritament, maintainer, marinate, martinet, martineta, metranemia, minaret, nemertinean, nitramine, raiment, reanimate, reattainment, reintimate, remaintain, terminant, terminate, tetramin, tetramine, tetrammine, tintamarre, tireman, traintime, triamine
+	Using Raint: antiair, antiar, antiarin, intrant, irritant, riant, titrant, train, trinitarian
+	Using Regin: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Regit: grittier, tergite, tiger, trigger
+	Using Regnt: gerent, regent
+	Using Reint: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Rgint: girting, gritting, ringgit, tiring, trigging, trining
+	Using Raegin: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Raegit: aigret, aigrette, gaiter, irrigate, triage
+	Using Raegnt: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Raeint: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Ragint: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Regint: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Raegint: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+n aegirt 3722
+	Using Naeg: agene, engage, gaen, gane
+	Using Naei: inane, nannie
+	Using Naer: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Naet: anent, antae, ante, antenna, antennae, attent, eaten, enate, etna, neat, neaten, tannate, tenant
+	Using Nagi: again, agin, aging, angina, gagging, gaging, gain, gaining, ganging, nagging
+	Using Nagr: gnar, gnarr, gran, grana, rang
+	Using Nagt: gnat, tang
+	Using Nair: airn, naira, rain, rani
+	Using Nait: anti, attain, attaint, tain, taint, tannin, titan, titania, titian
+	Using Nart: antra, arrant, rant, ratan, rattan, tantara, tantra, tarn, tartan, tartana
+	Using Negi: egging, engine, engining, geeing, genie, genii, gieing, gien
+	Using Negr: genre, green, greener, regreen, renege, reneger
+	Using Negt: genet, genette, gent
+	Using Neir: inner, rein, renin, rennin
+	Using Neit: intent, intine, nineteen, nite, tentie, tine
+	Using Nert: enter, enterer, entree, eterne, netter, reenter, rennet, rent, rente, renter, retene, teener, tenner, tenter, tern, terne, terreen, terrene, treen
+	Using Ngir: girn, girning, grin, grinning, iring, rigging, ring, ringing, rinning
+	Using Ngit: gittin, igniting, ting, tinging, tining, tinning, tinting
+	Using Ngrt: 
+	Using Nirt: 
+	Using Naegi: ageing, engaging, gaeing
+	Using Naegr: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Naegt: agent, agnate, gannet, negate, tangent, tannage, teenage, tentage
+	Using Naeir: inaner, narine, rainier
+	Using Naeit: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Naert: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Nagir: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Nagit: agitating, antiaging, anting, attaining, attainting, gaiting, gating, giant, ignatia, initiating, tagging, tainting, tanging, tanning, tatting
+	Using Nagrt: grant
+	Using Nairt: antiair, antiar, antiarin, intrant, irritant, riant, titrant, train, trinitarian
+	Using Negir: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Negit: getting, ignite, netting, teeing, tenting, tieing, tinge, tingeing
+	Using Negrt: gerent, regent
+	Using Neirt: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Ngirt: girting, gritting, ringgit, tiring, trigging, trining
+	Using Naegir: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Naegit: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Naegrt: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Naeirt: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Nagirt: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Negirt: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Naegirt: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+e aginrt 3662
+	Using Eagi: aggie
+	Using Eagn: agene, engage, gaen, gane
+	Using Eagr: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Eagt: agate, gate, geta
+	Using Eain: inane, nannie
+	Using Eair: aerie, aerier, airer, airier
+	Using Eait: tattie
+	Using Eanr: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Eant: anent, antae, ante, antenna, antennae, attent, eaten, enate, etna, neat, neaten, tannate, tenant
+	Using Eart: aerate, arete, eater, errata, rate, rater, ratter, reata, retear, retreat, retreater, tare, tarre, tarter, tartrate, tater, tatter, tear, tearer, terra, terrae, tetra, treat, treater
+	Using Egin: egging, engine, engining, geeing, genie, genii, gieing, gien
+	Using Egir: greige, rerig, rigger
+	Using Egit: 
+	Using Egnr: genre, green, greener, regreen, renege, reneger
+	Using Egnt: genet, genette, gent
+	Using Egrt: egret, getter, greet, greeter, regreet, regret, regretter
+	Using Einr: inner, rein, renin, rennin
+	Using Eint: intent, intine, nineteen, nite, tentie, tine
+	Using Eirt: retie, retire, retiree, retirer, rite, ritter, terrier, territ, tier, tire, titer, titre, titter, titterer, trier, trite, triter
+	Using Enrt: enter, enterer, entree, eterne, netter, reenter, rennet, rent, rente, renter, retene, teener, tenner, tenter, tern, terne, terreen, terrene, treen
+	Using Eagin: ageing, engaging, gaeing
+	Using Eagir: 
+	Using Eagit: agitate
+	Using Eagnr: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Eagnt: agent, agnate, gannet, negate, tangent, tannage, teenage, tentage
+	Using Eagrt: aggregate, ergate, etagere, garget, garret, garter, grate, grater, great, greater, reaggregate, regatta, regrate, retag, retarget, tagger, targe, target, terga
+	Using Eainr: inaner, narine, rainier
+	Using Eaint: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Eairt: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Eanrt: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Eginr: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Egint: getting, ignite, netting, teeing, tenting, tieing, tinge, tingeing
+	Using Egirt: grittier, tergite, tiger, trigger
+	Using Egnrt: gerent, regent
+	Using Einrt: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Eaginr: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Eagint: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Eagirt: aigret, aigrette, gaiter, irrigate, triage
+	Using Eagnrt: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Eainrt: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Eginrt: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Eaginrt: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+e adinrt 3491
+	Using Eadi: aide, aided, idea
+	Using Eadn: addend, addenda, deaden, deadened, dean, deaned, ennead
+	Using Eadr: adder, dare, dared, darer, deader, dear, dearer, dread, dreaded, drear, eared, radded, rared, read, readd, readded, reader, reared, redear, reread
+	Using Eadt: date, dated, tatted, teated
+	Using Eain: inane, nannie
+	Using Eair: aerie, aerier, airer, airier
+	Using Eait: tattie
+	Using Eanr: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Eant: anent, antae, ante, antenna, antennae, attent, eaten, enate, etna, neat, neaten, tannate, tenant
+	Using Eart: aerate, arete, eater, errata, rate, rater, ratter, reata, retear, retreat, retreater, tare, tarre, tarter, tartrate, tater, tatter, tear, tearer, terra, terrae, tetra, treat, treater
+	Using Edin: denied, diene, dine, dined, dinned, indeed, indene, indie, inned, nide, nided
+	Using Edir: deedier, deride, derided, derider, derriere, dire, direr, dried, drier, eider, ired, redid, redried, reedier, ridded, ridder, ride, rider
+	Using Edit: diet, dieted, dite, edit, edited, teiid, tide, tided, tidied, tied
+	Using Ednr: ender, needer, nerd, redden, reddened, rend, rended, render, rendered, renderer
+	Using Ednt: dent, dented, detent, detente, netted, tend, tended, tented
+	Using Edrt: deter, deterred, deterrer, retted, tedder, teetered, treed
+	Using Einr: inner, rein, renin, rennin
+	Using Eint: intent, intine, nineteen, nite, tentie, tine
+	Using Eirt: retie, retire, retiree, retirer, rite, ritter, terrier, territ, tier, tire, titer, titre, titter, titterer, trier, trite, triter
+	Using Enrt: enter, enterer, entree, eterne, netter, reenter, rennet, rent, rente, renter, retene, teener, tenner, tenter, tern, terne, terreen, terrene, treen
+	Using Eadin: adenine, aedine
+	Using Eadir: aeried, aider, aired, arider, deair, deaired, dearie, drearier, irade, raided, raider, readied, readier, redia, rediae
+	Using Eadit: ideate, ideated
+	Using Eadnr: aneared, dander, dandered, darned, darneder, darner, deadener, earned, endear, endeared, errand, neared, redan, reearned
+	Using Eadnt: adnate, andante, anted, antedate, antedated, anteed, attend, attendant, attended, attendee, dentate, dentated, edentate, neatened, tanned, tenanted
+	Using Eadrt: aerated, darted, darter, dater, deaerate, deaerated, derat, derate, derated, deratted, dratted, rated, ratted, redate, redated, retard, retardate, retarded, retarder, retread, retreaded, retreated, tared, tarred, tarted, tattered, teared, tetrad, trade, traded, trader, tread, treaded, treader, treated
+	Using Eainr: inaner, narine, rainier
+	Using Eaint: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Eairt: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Eanrt: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Edinr: denier, dernier, diner, dinner, endrin, needier, nerdier, nereid, redenied, reindeer, reined, ridden, rinded
+	Using Edint: dentin, dentine, dinette, dinted, endite, endited, indent, indented, indite, indited, inedited, intend, intended, teind, tined, tineid, tinned, tinted
+	Using Edirt: dieter, dirtied, dirtier, reedit, reedited, retied, retired, retried, tidier, tiered, tired, tireder, tittered, tried
+	Using Ednrt: deterrent, entered, reentered, rented, tender, tendered, tenderer, tentered, trend, trended
+	Using Einrt: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Eadinr: araneid, dandier, denarii, drained, drainer, nardine, rained, randier
+	Using Eadint: attained, attainted, detain, detained, detainee, dietitian, inedita, initiated, intendant, tainted
+	Using Eadirt: airdate, airted, attired, attrited, eradiate, eradiated, irradiate, irradiated, irritated, iterated, radiate, radiated, reiterated, reradiate, reradiated, tardier, tarried, tiaraed, tirade, titrated, triradiate, tritiated
+	Using Eadnrt: ardent, attender, entreated, narrated, nattered, ranted, rattened, retardant
+	Using Eainrt: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Edinrt: dendrite, indenter, inditer, intender, interned, interred, nitride, nitrided, reinterred, retinted, rident, tinder, trendier, trident, trined
+	Using Eadinrt: andradite, antired, attainder, daintier, detainer, detrain, detrained, entertained, entrained, intenerated, intreated, irredenta, irridenta, itinerated, nitrated, reattained, reinitiated, retained, retrained, trained
+i aegnrt 3354
+	Using Iaeg: aggie
+	Using Iaen: inane, nannie
+	Using Iaer: aerie, aerier, airer, airier
+	Using Iaet: tattie
+	Using Iagn: again, agin, aging, angina, gagging, gaging, gain, gaining, ganging, nagging
+	Using Iagr: agria, ragi
+	Using Iagt: gait, taiga
+	Using Ianr: airn, naira, rain, rani
+	Using Iant: anti, attain, attaint, tain, taint, tannin, titan, titania, titian
+	Using Iart: airt, atria, riata, tiara, trait
+	Using Iegn: egging, engine, engining, geeing, genie, genii, gieing, gien
+	Using Iegr: greige, rerig, rigger
+	Using Iegt: 
+	Using Ienr: inner, rein, renin, rennin
+	Using Ient: intent, intine, nineteen, nite, tentie, tine
+	Using Iert: retie, retire, retiree, retirer, rite, ritter, terrier, territ, tier, tire, titer, titre, titter, titterer, trier, trite, triter
+	Using Ignr: girn, girning, grin, grinning, iring, rigging, ring, ringing, rinning
+	Using Ignt: gittin, igniting, ting, tinging, tining, tinning, tinting
+	Using Igrt: girt, grit, trig
+	Using Inrt: 
+	Using Iaegn: ageing, engaging, gaeing
+	Using Iaegr: 
+	Using Iaegt: agitate
+	Using Iaenr: inaner, narine, rainier
+	Using Iaent: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Iaert: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Iagnr: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Iagnt: agitating, antiaging, anting, attaining, attainting, gaiting, gating, giant, ignatia, initiating, tagging, tainting, tanging, tanning, tatting
+	Using Iagrt: tragi
+	Using Ianrt: antiair, antiar, antiarin, intrant, irritant, riant, titrant, train, trinitarian
+	Using Iegnr: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Iegnt: getting, ignite, netting, teeing, tenting, tieing, tinge, tingeing
+	Using Iegrt: grittier, tergite, tiger, trigger
+	Using Ienrt: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Ignrt: girting, gritting, ringgit, tiring, trigging, trining
+	Using Iaegnr: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Iaegnt: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Iaegrt: aigret, aigrette, gaiter, irrigate, triage
+	Using Iaenrt: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Iagnrt: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Iegnrt: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Iaegnrt: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+t aeginr 3337
+	Using Taeg: agate, gate, geta
+	Using Taei: tattie
+	Using Taen: anent, antae, ante, antenna, antennae, attent, eaten, enate, etna, neat, neaten, tannate, tenant
+	Using Taer: aerate, arete, eater, errata, rate, rater, ratter, reata, retear, retreat, retreater, tare, tarre, tarter, tartrate, tater, tatter, tear, tearer, terra, terrae, tetra, treat, treater
+	Using Tagi: gait, taiga
+	Using Tagn: gnat, tang
+	Using Tagr: grat, ragtag, tagrag
+	Using Tain: anti, attain, attaint, tain, taint, tannin, titan, titania, titian
+	Using Tair: airt, atria, riata, tiara, trait
+	Using Tanr: antra, arrant, rant, ratan, rattan, tantara, tantra, tarn, tartan, tartana
+	Using Tegi: 
+	Using Tegn: genet, genette, gent
+	Using Tegr: egret, getter, greet, greeter, regreet, regret, regretter
+	Using Tein: intent, intine, nineteen, nite, tentie, tine
+	Using Teir: retie, retire, retiree, retirer, rite, ritter, terrier, territ, tier, tire, titer, titre, titter, titterer, trier, trite, triter
+	Using Tenr: enter, enterer, entree, eterne, netter, reenter, rennet, rent, rente, renter, retene, teener, tenner, tenter, tern, terne, terreen, terrene, treen
+	Using Tgin: gittin, igniting, ting, tinging, tining, tinning, tinting
+	Using Tgir: girt, grit, trig
+	Using Tgnr: 
+	Using Tinr: 
+	Using Taegi: agitate
+	Using Taegn: agent, agnate, gannet, negate, tangent, tannage, teenage, tentage
+	Using Taegr: aggregate, ergate, etagere, garget, garret, garter, grate, grater, great, greater, reaggregate, regatta, regrate, retag, retarget, tagger, targe, target, terga
+	Using Taein: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Taeir: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Taenr: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Tagin: agitating, antiaging, anting, attaining, attainting, gaiting, gating, giant, ignatia, initiating, tagging, tainting, tanging, tanning, tatting
+	Using Tagir: tragi
+	Using Tagnr: grant
+	Using Tainr: antiair, antiar, antiarin, intrant, irritant, riant, titrant, train, trinitarian
+	Using Tegin: getting, ignite, netting, teeing, tenting, tieing, tinge, tingeing
+	Using Tegir: grittier, tergite, tiger, trigger
+	Using Tegnr: gerent, regent
+	Using Teinr: entire, inert, inter, intern, interne, internee, intertie, nettier, niter, niterie, nitre, nitrite, nittier, reinter, renitent, rentier, retine, retinene, retinite, retint, teenier, tentier, terrine, tinier, tinner, tinnier, tinter, triene, trine
+	Using Tginr: girting, gritting, ringgit, tiring, trigging, trining
+	Using Taegin: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Taegir: aigret, aigrette, gaiter, irrigate, triage
+	Using Taegnr: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Taeinr: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Taginr: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Teginr: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Taeginr: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+a eginrt 3294
+	Using Aegi: aggie
+	Using Aegn: agene, engage, gaen, gane
+	Using Aegr: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Aegt: agate, gate, geta
+	Using Aein: inane, nannie
+	Using Aeir: aerie, aerier, airer, airier
+	Using Aeit: tattie
+	Using Aenr: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Aent: anent, antae, ante, antenna, antennae, attent, eaten, enate, etna, neat, neaten, tannate, tenant
+	Using Aert: aerate, arete, eater, errata, rate, rater, ratter, reata, retear, retreat, retreater, tare, tarre, tarter, tartrate, tater, tatter, tear, tearer, terra, terrae, tetra, treat, treater
+	Using Agin: again, agin, aging, angina, gagging, gaging, gain, gaining, ganging, nagging
+	Using Agir: agria, ragi
+	Using Agit: gait, taiga
+	Using Agnr: gnar, gnarr, gran, grana, rang
+	Using Agnt: gnat, tang
+	Using Agrt: grat, ragtag, tagrag
+	Using Ainr: airn, naira, rain, rani
+	Using Aint: anti, attain, attaint, tain, taint, tannin, titan, titania, titian
+	Using Airt: airt, atria, riata, tiara, trait
+	Using Anrt: antra, arrant, rant, ratan, rattan, tantara, tantra, tarn, tartan, tartana
+	Using Aegin: ageing, engaging, gaeing
+	Using Aegir: 
+	Using Aegit: agitate
+	Using Aegnr: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Aegnt: agent, agnate, gannet, negate, tangent, tannage, teenage, tentage
+	Using Aegrt: aggregate, ergate, etagere, garget, garret, garter, grate, grater, great, greater, reaggregate, regatta, regrate, retag, retarget, tagger, targe, target, terga
+	Using Aeinr: inaner, narine, rainier
+	Using Aeint: entia, initiate, innate, taenia, taeniae, tenia, teniae, tinea, titanate, titanite
+	Using Aeirt: arietta, ariette, artier, attire, attrite, irate, irater, irritate, iterate, ratite, rattier, reiterate, retia, retiarii, tarrier, tattier, tearier, terai, terraria, titrate
+	Using Aenrt: anteater, antre, entera, entrant, entreat, errant, narrate, narrater, natter, neater, ranter, ratteen, ratten, rattener, reentrant, retreatant, tanner, ternate, terrane
+	Using Aginr: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Agint: agitating, antiaging, anting, attaining, attainting, gaiting, gating, giant, ignatia, initiating, tagging, tainting, tanging, tanning, tatting
+	Using Agirt: tragi
+	Using Agnrt: grant
+	Using Ainrt: antiair, antiar, antiarin, intrant, irritant, riant, titrant, train, trinitarian
+	Using Aeginr: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Aegint: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Aegirt: aigret, aigrette, gaiter, irrigate, triage
+	Using Aegnrt: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Aeinrt: arenite, attainer, entertain, entertainer, entrain, entrainer, inerrant, inertia, inertiae, intenerate, intreat, iterant, itinerant, itinerate, nattier, nitrate, ratine, reattain, reinitiate, retain, retainer, retina, retinae, retirant, retrain, terrain, tertian, trainee, trainer, triennia
+	Using Aginrt: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Aeginrt: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
+r adegin 3128
+	Using Rade: adder, dare, dared, darer, deader, dear, dearer, dread, dreaded, drear, eared, radded, rared, read, readd, readded, reader, reared, redear, reread
+	Using Radg: drag, grad
+	Using Radi: arid, radii, raid
+	Using Radn: darn, nard, rand, randan
+	Using Raeg: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Raei: aerie, aerier, airer, airier
+	Using Raen: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Ragi: agria, ragi
+	Using Ragn: gnar, gnarr, gran, grana, rang
+	Using Rain: airn, naira, rain, rani
+	Using Rdeg: degree, degreed, dredge, dredged, dredger, dreg, edger, greed
+	Using Rdei: deedier, deride, derided, derider, derriere, dire, direr, dried, drier, eider, ired, redid, redried, reedier, ridded, ridder, ride, rider
+	Using Rden: ender, needer, nerd, redden, reddened, rend, rended, render, rendered, renderer
+	Using Rdgi: gird, grid, rigid
+	Using Rdgn: 
+	Using Rdin: indri, rind
+	Using Regi: greige, rerig, rigger
+	Using Regn: genre, green, greener, regreen, renege, reneger
+	Using Rein: inner, rein, renin, rennin
+	Using Rgin: girn, girning, grin, grinning, iring, rigging, ring, ringing, rinning
+	Using Radeg: aggrade, aggraded, agreed, dagger, daggered, degrade, degraded, degrader, dragee, dragged, dragger, gadder, garaged, garred, geared, grade, graded, grader, raged, ragged, raggeder, regard, regarded, regeared, regrade, regraded
+	Using Radei: aeried, aider, aired, arider, deair, deaired, dearie, drearier, irade, raided, raider, readied, readier, redia, rediae
+	Using Raden: aneared, dander, dandered, darned, darneder, darner, deadener, earned, endear, endeared, errand, neared, redan, reearned
+	Using Radgi: 
+	Using Radgn: grand, grandad, granddad
+	Using Radin: dinar, drain, nadir, radian, ranid
+	Using Raegi: 
+	Using Raegn: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Raein: inaner, narine, rainier
+	Using Ragin: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Rdegi: digger, dirge, dreggier, edgier, giddier, girded, girder, greedier, gridder, gride, grided, rerigged, ridge, ridged, ridgier, rigged
+	Using Rdegn: engender, engendered, gender, gendered, greened, regreened, reneged
+	Using Rdein: denier, dernier, diner, dinner, endrin, needier, nerdier, nereid, redenied, reindeer, reined, ridden, rinded
+	Using Rdgin: girding, griding, grind, grinding, ridding, ridging, riding
+	Using Regin: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Radegi: draggier, gerardia
+	Using Radegn: angered, arranged, danger, dangered, derange, deranged, endanger, endangered, enraged, gadarene, gander, gandered, gangrened, garden, gardened, gardener, garnered, gnarred, grandee, grander, grenade, ranged, rearranged, reengaged, renegade, renegaded
+	Using Radein: araneid, dandier, denarii, drained, drainer, nardine, rained, randier
+	Using Radgin: aggrading, daring, darning, dragging, draining, gradin, grading, niggard, niggarding, radding, raiding
+	Using Raegin: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Rdegin: deriding, deringer, derringer, dinger, dingier, dredging, dreeing, energid, engendering, engineered, engird, engirded, engirding, gendering, gingered, girned, grinded, grinder, grinned, nidering, reddening, redding, reding, reeding, reengineered, regrind, regrinding, reigned, rendering, rending, renigged, ringed
+	Using Radegin: arraigned, daggering, dandering, dangering, deairing, degrading, deraign, deraigned, deraigning, deranging, drainage, dreading, endangering, endearing, engrained, gandering, gardenia, gardening, gradine, grained, grenadier, grenadine, ingrained, niggarded, readding, reading, regained, regarding, regrading, renegading, rereading
+e adginr 3118
+	Using Eadg: adage, aged, degage, egad, gadded, gaed, gaged, gagged
+	Using Eadi: aide, aided, idea
+	Using Eadn: addend, addenda, deaden, deadened, dean, deaned, ennead
+	Using Eadr: adder, dare, dared, darer, deader, dear, dearer, dread, dreaded, drear, eared, radded, rared, read, readd, readded, reader, reared, redear, reread
+	Using Eagi: aggie
+	Using Eagn: agene, engage, gaen, gane
+	Using Eagr: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Eain: inane, nannie
+	Using Eair: aerie, aerier, airer, airier
+	Using Eanr: anear, arena, earn, earner, near, nearer, ranee, reearn, reran
+	Using Edgi: digged, giddied, gied, gigged
+	Using Edgn: 
+	Using Edgr: degree, degreed, dredge, dredged, dredger, dreg, edger, greed
+	Using Edin: denied, diene, dine, dined, dinned, indeed, indene, indie, inned, nide, nided
+	Using Edir: deedier, deride, derided, derider, derriere, dire, direr, dried, drier, eider, ired, redid, redried, reedier, ridded, ridder, ride, rider
+	Using Ednr: ender, needer, nerd, redden, reddened, rend, rended, render, rendered, renderer
+	Using Egin: egging, engine, engining, geeing, genie, genii, gieing, gien
+	Using Egir: greige, rerig, rigger
+	Using Egnr: genre, green, greener, regreen, renege, reneger
+	Using Einr: inner, rein, renin, rennin
+	Using Eadgi: 
+	Using Eadgn: agenda, danged, engaged, ganged, nagged
+	Using Eadgr: aggrade, aggraded, agreed, dagger, daggered, degrade, degraded, degrader, dragee, dragged, dragger, gadder, garaged, garred, geared, grade, graded, grader, raged, ragged, raggeder, regard, regarded, regeared, regrade, regraded
+	Using Eadin: adenine, aedine
+	Using Eadir: aeried, aider, aired, arider, deair, deaired, dearie, drearier, irade, raided, raider, readied, readier, redia, rediae
+	Using Eadnr: aneared, dander, dandered, darned, darneder, darner, deadener, earned, endear, endeared, errand, neared, redan, reearned
+	Using Eagin: ageing, engaging, gaeing
+	Using Eagir: 
+	Using Eagnr: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Eainr: inaner, narine, rainier
+	Using Edgin: deeding, deign, deigned, deigning, denning, dieing, dinge, dinged, edging, ending, engined, ginned, indigen, indigene, needing
+	Using Edgir: digger, dirge, dreggier, edgier, giddier, girded, girder, greedier, gridder, gride, grided, rerigged, ridge, ridged, ridgier, rigged
+	Using Edgnr: engender, engendered, gender, gendered, greened, regreened, reneged
+	Using Edinr: denier, dernier, diner, dinner, endrin, needier, nerdier, nereid, redenied, reindeer, reined, ridden, rinded
+	Using Eginr: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Eadgin: deadening, deaning, gained
+	Using Eadgir: draggier, gerardia
+	Using Eadgnr: angered, arranged, danger, dangered, derange, deranged, endanger, endangered, enraged, gadarene, gander, gandered, gangrened, garden, gardened, gardener, garnered, gnarred, grandee, grander, grenade, ranged, rearranged, reengaged, renegade, renegaded
+	Using Eadinr: araneid, dandier, denarii, drained, drainer, nardine, rained, randier
+	Using Eaginr: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Edginr: deriding, deringer, derringer, dinger, dingier, dredging, dreeing, energid, engendering, engineered, engird, engirded, engirding, gendering, gingered, girned, grinded, grinder, grinned, nidering, reddening, redding, reding, reeding, reengineered, regrind, regrinding, reigned, rendering, rending, renigged, ringed
+	Using Eadginr: arraigned, daggering, dandering, dangering, deairing, degrading, deraign, deraigned, deraigning, deranging, drainage, dreading, endangering, endearing, engrained, gandering, gardenia, gardening, gradine, grained, grenadier, grenadine, ingrained, niggarded, readding, reading, regained, regarding, regrading, renegading, rereading
+g aeinrt 3038
+	Using Gaei: aggie
+	Using Gaen: agene, engage, gaen, gane
+	Using Gaer: ager, agger, agree, arrearage, eager, eagerer, eagre, eggar, gager, gagger, garage, gear, rage, ragee, raggee, regear, reggae
+	Using Gaet: agate, gate, geta
+	Using Gain: again, agin, aging, angina, gagging, gaging, gain, gaining, ganging, nagging
+	Using Gair: agria, ragi
+	Using Gait: gait, taiga
+	Using Ganr: gnar, gnarr, gran, grana, rang
+	Using Gant: gnat, tang
+	Using Gart: grat, ragtag, tagrag
+	Using Gein: egging, engine, engining, geeing, genie, genii, gieing, gien
+	Using Geir: greige, rerig, rigger
+	Using Geit: 
+	Using Genr: genre, green, greener, regreen, renege, reneger
+	Using Gent: genet, genette, gent
+	Using Gert: egret, getter, greet, greeter, regreet, regret, regretter
+	Using Ginr: girn, girning, grin, grinning, iring, rigging, ring, ringing, rinning
+	Using Gint: gittin, igniting, ting, tinging, tining, tinning, tinting
+	Using Girt: girt, grit, trig
+	Using Gnrt: 
+	Using Gaein: ageing, engaging, gaeing
+	Using Gaeir: 
+	Using Gaeit: agitate
+	Using Gaenr: anger, arrange, arranger, engager, enrage, ganger, gangrene, garner, genera, grange, granger, greengage, nagger, range, ranger, rearrange, reengage, regna
+	Using Gaent: agent, agnate, gannet, negate, tangent, tannage, teenage, tentage
+	Using Gaert: aggregate, ergate, etagere, garget, garret, garter, grate, grater, great, greater, reaggregate, regatta, regrate, retag, retarget, tagger, targe, target, terga
+	Using Gainr: agrarian, airing, angaria, arraign, arraigning, arranging, garaging, garni, garring, gnarring, grain, graining, ingrain, ingraining, ragging, raging, raining, ranging, raring
+	Using Gaint: agitating, antiaging, anting, attaining, attainting, gaiting, gating, giant, ignatia, initiating, tagging, tainting, tanging, tanning, tatting
+	Using Gairt: tragi
+	Using Ganrt: grant
+	Using Geinr: engineer, engineering, erring, ginger, gingering, ginner, ginnier, greeing, greenie, greenier, greening, grinner, nigger, reengineer, reengineering, regreening, reign, reigning, reining, reneging, renig, renigging, rerigging, ringer
+	Using Geint: getting, ignite, netting, teeing, tenting, tieing, tinge, tingeing
+	Using Geirt: grittier, tergite, tiger, trigger
+	Using Genrt: gerent, regent
+	Using Ginrt: girting, gritting, ringgit, tiring, trigging, trining
+	Using Gaeinr: aginner, agreeing, anearing, anergia, angering, angrier, arginine, earing, earning, earring, engrain, engraining, enraging, gainer, gangrening, garnering, gearing, grainer, grainier, grannie, gregarine, naggier, nearing, rangier, reagin, rearing, rearranging, reearning, reengaging, regain, regainer, regaining, regearing, regina, reginae
+	Using Gaeint: agenting, anteing, antigen, antigene, eating, gentian, ingate, neatening, negating, tenanting
+	Using Gaeirt: aigret, aigrette, gaiter, irrigate, triage
+	Using Gaenrt: argent, garnet, generate, grantee, granter, greaten, negater, reagent, regenerate, regnant, regrant, tanager, teenager
+	Using Gainrt: airting, attiring, granita, granting, gratin, grating, ingratiating, intrigant, irrigating, irritating, narrating, nitrating, ranting, rating, ratting, taring, tarring, tarting, titrating, training, triaging
+	Using Geinrt: engirt, entering, gettering, gittern, greeting, igniter, integer, interning, interring, reentering, regreeting, regretting, reignite, reigniting, reinterring, renting, retinting, retiring, retting, ringent, teetering, tentering, tiering, tittering, treeing, triggering
+	Using Gaeinrt: aerating, aggregating, argentine, argentite, entertaining, entraining, entreating, garnierite, gartering, generating, gnattier, granite, gratine, gratinee, gratineeing, greatening, ingrate, ingratiate, integrate, integrating, intenerating, interage, intergang, interregna, intreating, iterating, itinerating, nattering, rattening, reaggregating, reattaining, regenerating, regranting, regrating, reinitiating, reintegrate, reintegrating, reiterating, retagging, retaining, retargeting, retearing, retraining, retreating, tangerine, tangier, targeting, tattering, tearing, treating
