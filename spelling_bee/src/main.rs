@@ -60,8 +60,8 @@ const LEGAL_LETTERS: [char; 25] = [
  * Preprocess a word list into a hashmap of letter -> sorted remaining letters -> total score of all words created
  * by all words that contain the letter and all of the remaining letters.
  */
-fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
-    let word_scores: HashMap<String, usize> = read_lines(filename)
+fn preprocess(filename: &str) -> HashMap<char, HashMap<String, (usize, Vec<String>)>> {
+    let word_scores: HashMap<String, (usize, Vec<String>)> = read_lines(filename)
         .unwrap()
         .flatten()
         .filter_map(|word| {
@@ -73,26 +73,29 @@ fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
                 return None;
             }
 
-            let (word, score) = normalize(&word);
+            let (normalized, score) = normalize(&word);
             if word.is_empty() {
                 return None;
             }
-            Some((word, score))
+            Some((normalized, score, word))
         })
-        .fold(HashMap::new(), |mut map, (word, score)| {
-            map.entry(word)
-                .and_modify(|prev_score| *prev_score += score)
-                .or_insert(score);
+        .fold(HashMap::new(), |mut map, (normalized, score, original)| {
+            map.entry(normalized)
+                .and_modify(|prev| {
+                    prev.0 += score;
+                    prev.1.push(original.clone());
+                })
+                .or_insert((score, vec![original]));
             map
         });
 
-    let by_letter: HashMap<char, HashMap<String, usize>> = LEGAL_LETTERS
+    let by_letter: HashMap<char, HashMap<String, (usize, Vec<String>)>> = LEGAL_LETTERS
         .iter()
         .map(|c| {
             let words = word_scores
                 .iter()
                 .filter(|(word, _)| word.contains(*c))
-                .map(|(word, score)| (word.replace(*c, ""), *score))
+                .map(|(word, score)| (word.replace(*c, ""), score.clone()))
                 .collect();
             (*c, words)
         })
@@ -102,9 +105,10 @@ fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
 }
 
 fn score_board(
-    preprocessed: &HashMap<char, HashMap<String, usize>>,
+    preprocessed: &HashMap<char, HashMap<String, (usize, Vec<String>)>>,
     center_letter: &char,
     other_letters: &str, // must be sorted
+    print_words: bool,
 ) -> usize {
     debug_assert!(other_letters.chars().all(|c| c.is_ascii_lowercase()));
     debug_assert!(other_letters
@@ -120,8 +124,19 @@ fn score_board(
         .chain(other_letters.chars().combinations(5))
         .chain(other_letters.chars().combinations(6))
         .map(|letters| {
-            let word = letters.iter().collect::<String>();
-            word_scores.get(&word).unwrap_or(&0)
+            let normalized = letters.iter().collect::<String>();
+            let default = (0, vec![]);
+            let (score, words) = word_scores.get(&normalized).unwrap_or(&default);
+            if print_words {
+                // todo actually collect these and print them in sorted order
+                println!(
+                    "\tUsing {}{}: {}",
+                    center_letter.to_uppercase(),
+                    normalized,
+                    words.join(", ")
+                );
+            }
+            *score
         })
         .sum();
 
@@ -130,7 +145,7 @@ fn score_board(
 
 fn main() {
     // hashmap between normalized words and the total score for all words that normalize to the same key
-    let preprocessed = preprocess("/usr/share/dict/words");
+    let preprocessed = preprocess("/usr/share/dict/web2");
 
     let scores = LEGAL_LETTERS.iter().flat_map(|center_letter| {
         eprintln!("Processing center letter: {}", center_letter);
@@ -140,7 +155,7 @@ fn main() {
             .combinations(6)
             .filter_map(|letters| {
                 let letters: String = letters.iter().copied().collect();
-                let score = score_board(&preprocessed, center_letter, &letters);
+                let score = score_board(&preprocessed, center_letter, &letters, false);
                 if score == 0 {
                     return None;
                 }
@@ -151,8 +166,10 @@ fn main() {
 
     scores
         .sorted_by_key(|x| -(x.2 as i32))
+        .take(10)
         .for_each(|(center, letters, score)| {
             println!("{} {} {}", center, letters, score);
+            score_board(&preprocessed, center, &letters, true);
         });
 }
 
