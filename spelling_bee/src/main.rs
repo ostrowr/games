@@ -69,7 +69,7 @@ fn preprocess(filename: &str) -> HashMap<char, HashMap<String, usize>> {
             if word.len() <= 3 {
                 return None;
             }
-            if !word.chars().all(|c| c.is_ascii_lowercase()) {
+            if !word.chars().all(|c| LEGAL_LETTERS.contains(&c)) {
                 return None;
             }
 
